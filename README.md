@@ -14,6 +14,7 @@ we have several other Organizations on GitHub:
 -  https://github.com/fuselabs
 -  https://github.com/mspnp
 -  https://github.com/MicrosoftHPC
+-  https://github.com/yammer
 
 There are also projects hosted on CodePlex here:
 
