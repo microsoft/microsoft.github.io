@@ -16,6 +16,7 @@ we have several other Organizations on GitHub:
 -  https://github.com/MicrosoftHPC
 -  https://github.com/yammer
 -  https://github.com/nuget
+-  https://github.com/winjs
 
 There are also projects hosted on CodePlex here:
 
