@@ -17,6 +17,7 @@ we have several other Organizations on GitHub:
 -  https://github.com/yammer
 -  https://github.com/nuget
 -  https://github.com/winjs
+-  https://github.com/nokia-developer
 
 There are also projects hosted on CodePlex here:
 
