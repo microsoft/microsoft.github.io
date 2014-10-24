@@ -18,6 +18,12 @@ we have several other Organizations on GitHub:
 -  https://github.com/nuget
 -  https://github.com/winjs
 -  https://github.com/nokia-developer
+-  https://github.com/Microsoft-CISL 
+-  https://github.com/MicrosoftResearch 
+-  https://github.com/OSTC 
+-  https://github.com/liveservices 
+-  https://github.com/AzureADSamples 
+-  https://github.com/microsoft-hsg
 
 There are also projects hosted on CodePlex here:
 
