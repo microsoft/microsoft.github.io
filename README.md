@@ -24,6 +24,8 @@ we have several other Organizations on GitHub:
 -  https://github.com/liveservices 
 -  https://github.com/AzureADSamples 
 -  https://github.com/microsoft-hsg
+-  https://github.com/WindowsAzure-Samples
+-  https://github.com/Azure-Readiness
 
 There are also projects hosted on CodePlex here:
 
