@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html ng-app="site">
+<head>
+    <title>Microsoft @ Github</title>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body ng-controller="MainCtrl as main">
+    <div class="container">
+        <div class="featured-projects">
+            <h1>Featured Projects</h1>
+            <div class="row"></div>
+        </div>
+        <div class="organizations">
+            <h1>Other Microsoft organizations</h1>
+            <div class="row">
+                <div class="col-md-3" ng-repeat="org in main.orgs">
+                    <a ng-href="{{org.url}}" class="thumbnail">
+                        <img ng-src="{{org.image}}" alt="{{org.image}}">
+                        <div class="caption">
+                            <h3 class="text-center">{{org.name}}</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="all-projects">
+            <h1>All projects</h1>
+            <div class="loading" ng-hide="main.projects">Loading</div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="input-group input-group-lg">
+                        <input type="text" class="form-control" ng-model="searchText" placeholder="Filter projects"/>
+                        <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-filter"></span>
+                        </span>
+                    </div>
+                    <br/>
+                </div>
+            </div>
+            <div class="row" ng-show="main.projects">
+                <div class="col-md-4" ng-repeat="project in main.projects | filter:searchText">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">{{project.name}}</h3>
+                        </div>
+                        <div class="panel-body description">{{project.description}}</div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    {{project.stargazers_count}}
+                                    <span class="glyphicon glyphicon-random"></span>
+                                    {{project.forks}}
+                                </div>
+                                <div class="col-sm-6 text-right">
+                                    <a class="btn btn-xs btn-default" ng-href="{{project.html_url}}">Visit repository &raquo;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
