@@ -11,7 +11,10 @@
 }
 
 .featured-projects .row .panel .description {
-    height: 250px;
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    height:10em;
 }
 
 .featured-projects .panel-body .span-stars-group {
@@ -31,7 +34,10 @@
 }
 
 .all-projects .row .panel .description {
-    height: 250px;
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    height:10em;
 }
 
 .all-projects .panel-body .span-stars-group {
