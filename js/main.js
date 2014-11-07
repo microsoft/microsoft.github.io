@@ -12,7 +12,7 @@ angular
 
             return {
                 featured: get('data/featured.json'),
-                projects: get('https://api.github.com/orgs/microsoft/repos'),
+                projects: get('https://api.github.com/orgs/microsoft/repos?per_page=100'),
                 orgs: get('data/organization.json')
             }
         }
