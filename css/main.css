@@ -55,10 +55,7 @@
 
 .organizations .orgs-heading {
     color: #F5F9F9;
-}
-
-.organizations .row {
-    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 .organizations .row .orglink {
