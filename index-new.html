@@ -35,6 +35,43 @@
                                 <a  target="_self" class="mscom-link mscom-siteIdentity" href="/" >Microsoft On Github</a>
                             </div>
 
+                            <!--Search-->
+                            <div class=" span  bp1-col-2-1 bp3-col-2-1 bp2-col-2-1 bp0-col-2-0 mscom-header-search-section">
+                                <div class="mscom-right mscom-header-section-2-4">
+                                    <div >
+                                        <div class="CSPvNext">
+                                            <div class="row-fluid" data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1">
+                                                <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
+                                                    <div class="CMSvNextComp mscom-search">
+                                                        <span class="mscom-search-Border" id="ctl00_SearchBox">
+                                                            <div class="mscom-search-Container">
+                                                                <input name="searchQuery"
+                                                                       title="Search Download Center"
+                                                                       class="mscom-search-TextBox"
+                                                                       id="searchQuery"
+                                                                       type="text"
+                                                                       maxlength="1024"
+                                                                       placeholder="Search all Microsoft repos..."
+                                                                       style="max-width:100%!important"
+                                                                       autocomplete="off"
+                                                                       ng-model="searchText" />
+                                                                <input name="ctl00$SearchButton" title="Search"
+                                                                       class="mscom-search-image mscom-search-Button"
+                                                                       id="ctl00_SearchButton"
+                                                                       type="image"
+                                                                       alt="Search"
+                                                                       src="img/search.ltr.png" />
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Search-->
+
                         </div>
                     </div>
 
@@ -85,17 +122,6 @@
                     <div class="all-projects">
                         <h3>All Repos</h3>
                         <div class="loading" ng-hide="main.projects">Loading project information from Github...</div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="input-group input-group-lg">
-                                    <input type="text" class="form-control" ng-model="searchText" placeholder="Filter projects"/>
-                                    <span class="input-group-addon">
-                                        <span class="glyphicon glyphicon-filter"></span>
-                                    </span>
-                                </div>
-                                <br/>
-                            </div>
-                        </div>
                         <div class="row" ng-show="main.projects">
                             <div class="col-md-4" ng-repeat="project in main.projects | filter:searchText">
                                 <div class="panel panel-default">
