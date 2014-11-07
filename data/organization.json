@@ -1,11 +1,15 @@
 [{
+	"name": "Microsoft",
+	"url": "https://github.com/microsoft",
+	"image": "https://avatars.githubusercontent.com/u/6154722?v=2&s=200"
+}, {
 	"name": "WinJS",
 	"url": "https://github.com/winjs",
 	"image": "https://avatars2.githubusercontent.com/u/6923056?v=2&s=200"
 }, {
 	"name": "MSOpenTech",
 	"url": "https://github.com/msopentech",
-	"image": "https://avatars0.githubusercontent.com/u/1638184?v=2&s=200"
+	"image": "https://avatars.githubusercontent.com/u/1638184?v=2&s=200"
 }, {
 	"name": "Azure",
 	"url": "https://github.com/Azure",
