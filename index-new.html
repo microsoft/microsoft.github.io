@@ -84,82 +84,80 @@
          data-view3="1" data-view4="1">
         <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
             <div class="main-content">
-                <div class="container">
-                    
-                    <div class="featured-projects">
-                        <h3>Featured Repos</h3>
-                        <div class="loading" ng-hide="main.featuredProjects">Loading project information from Github...</div>
-                        <div class="row" ng-show="main.featuredProjects">
-                            <div class="col-md-4" ng-repeat="project in main.featuredProjects">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <a ng-href="{{project.html_url}}">
-                                            <h3 class="panel-title">{{project.name}}</h3>
-                                        </a>
-                                    </div>
-                                    <div class="panel-body description">{{project.description}}</div>
-                                    <div class="panel-body">
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-                                                <span class="span-stars-group">
-                                                    {{project.stargazers_count}}
-                                                    <span class="glyphicon glyphicon-star"></span>
-                                                    stars
-                                                </span>
-                                                <span class="span-forks-group">
-                                                    {{project.forks}}
-                                                    <span class="glyphicon glyphicon-random"></span>
-                                                    forks
-                                                </span>
-                                            </div>
+                <div class="featured-projects">
+                    <h3>Featured Repos</h3>
+                    <div class="loading" ng-hide="main.featuredProjects">Loading project information from Github...</div>
+                    <div class="row" ng-show="main.featuredProjects">
+                        <div class="col-md-4" ng-repeat="project in main.featuredProjects">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a ng-href="{{project.html_url}}">
+                                        <h3 class="panel-title">{{project.name}}</h3>
+                                    </a>
+                                </div>
+                                <div class="panel-body description">{{project.description}}</div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <span class="span-stars-group">
+                                                {{project.stargazers_count}}
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                stars
+                                            </span>
+                                            <span class="span-forks-group">
+                                                {{project.forks}}
+                                                <span class="glyphicon glyphicon-random"></span>
+                                                forks
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="all-projects">
-                        <h3>All Repos</h3>
-                        <div class="loading" ng-hide="main.projects">Loading project information from Github...</div>
-                        <div class="row" ng-show="main.projects">
-                            <div class="col-md-4" ng-repeat="project in main.projects | filter:searchText">
-                                <div class="panel panel-default">
-                                    <div class="panel-heading">
-                                        <a ng-href="{{project.html_url}}">
-                                            <h3 class="panel-title">{{project.name}}</h3>
-                                        </a>
-                                    </div>
-                                    <div class="panel-body description">{{project.description}}</div>
-                                    <div class="panel-body">
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-                                                <span class="span-stars-group">
-                                                    {{project.stargazers_count}}
-                                                    <span class="glyphicon glyphicon-star"></span>
-                                                    stars
-                                                </span>
-                                                <span class="span-forks-group">
-                                                    {{project.forks}}
-                                                    <span class="glyphicon glyphicon-random"></span>
-                                                    forks
-                                                </span>
-                                            </div>
+                </div>
+                
+                <div class="all-projects">
+                    <h3>All Repos</h3>
+                    <div class="loading" ng-hide="main.projects">Loading project information from Github...</div>
+                    <div class="row" ng-show="main.projects">
+                        <div class="col-md-4" ng-repeat="project in main.projects | filter:searchText">
+                            <div class="panel panel-default">
+                                <div class="panel-heading">
+                                    <a ng-href="{{project.html_url}}">
+                                        <h3 class="panel-title">{{project.name}}</h3>
+                                    </a>
+                                </div>
+                                <div class="panel-body description">{{project.description}}</div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <span class="span-stars-group">
+                                                {{project.stargazers_count}}
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                stars
+                                            </span>
+                                            <span class="span-forks-group">
+                                                {{project.forks}}
+                                                <span class="glyphicon glyphicon-random"></span>
+                                                forks
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
-                    <div class="organizations">
-                        <div class="row" >
-                            <div class="col-md-3" ng-repeat="org in main.orgs">
-                                <a ng-href="{{org.url}}" class="orglink">
-                                    <!-- <img ng-src="{{org.image}}" alt="{{org.image}}"> -->
-                                        <span class="text-center">{{org.name}}</span>
-                                </a>
-                            </div>
+                </div>
+                
+                <div class="organizations">
+                    <h3 class="orgs-heading">Other Microsoft Organizations</h3>
+                    <div class="row">
+                        <div class="col-md-3" ng-repeat="org in main.orgs">
+                            <a ng-href="{{org.url}}" class="orglink">
+                                <!-- <img ng-src="{{org.image}}" alt="{{org.image}}"> -->
+                                    <span class="text-center">{{org.name}}</span>
+                            </a>
                         </div>
                     </div>
                 </div>

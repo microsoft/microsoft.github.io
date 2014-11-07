@@ -5845,7 +5845,7 @@ strong {
 	font-weight: bold;
 }
 .dlc-body {
-	margin: 0px auto; width: 96%; padding-bottom: 100px; max-width: 1180px;
+	margin: 0px auto; width: 96%; padding-bottom: 0px; max-width: 1180px;
 }
 .dlc-body .widthholder {
 	min-height: 1px; _height: 1px;

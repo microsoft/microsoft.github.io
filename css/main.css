@@ -48,12 +48,19 @@
     margin: 2px 10px 2px 2px;
 }
 
-.organizations .row {
+.organizations  {
     background-color: #6DC2E9;
-    padding: 40px;
+    padding: 20px 50px 20px 50px;
+}
+
+.organizations .orgs-heading {
+    color: #F5F9F9;
+}
+
+.organizations .row {
+    margin-top: 20px;
 }
 
 .organizations .row .orglink {
     color: #F5F9F9;
-    
 }

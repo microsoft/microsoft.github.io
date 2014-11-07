@@ -14,7 +14,7 @@ div.main-content {
     min-height: 450px !important;
     /*_height: 500px !important;*/
     margin-top:20px !important;
-    margin-bottom: 20px !important;
+    margin-bottom: 0px !important;
 }
 
 .repotable {
