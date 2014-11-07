@@ -63,7 +63,7 @@
                                     <div class="panel-body description">{{project.description}}</div>
                                     <div class="panel-body">
                                         <div class="row">
-                                            <div class="col-sm-12 div-stats">
+                                            <div class="col-sm-8 col-sm-offset-2">
                                                 <span class="span-stars-group">
                                                     {{project.stargazers_count}}
                                                     <span class="glyphicon glyphicon-star"></span>
@@ -107,7 +107,7 @@
                                     <div class="panel-body description">{{project.description}}</div>
                                     <div class="panel-body">
                                         <div class="row">
-                                            <div class="col-sm-12 div-stats">
+                                            <div class="col-sm-8 col-sm-offset-2">
                                                 <span class="span-stars-group">
                                                     {{project.stargazers_count}}
                                                     <span class="glyphicon glyphicon-star"></span>
@@ -127,7 +127,6 @@
                     </div>
                     
                     <div class="organizations">
-                        <h3>Other Microsoft Organizations</h3>
                         <div class="row" >
                             <div class="col-md-3" ng-repeat="org in main.orgs">
                                 <a ng-href="{{org.url}}" class="orglink">
