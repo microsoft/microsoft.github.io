@@ -1,5 +1,9 @@
 .loading {
-    text-align: center;
+    text-align: left;
+}
+
+.featured-projects .row .panel .description {
+    height: 300px;
 }
 
 .all-projects .row .panel .description {

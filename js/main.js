@@ -30,6 +30,17 @@ angular
                 return Backend.featured();
             }).then(function(data){
                 self.featured = data;
+                self.featuredProjects = new Array();
+                
+                self.featured.forEach(function (name) {
+                    for (var i = 0; i < self.projects.length; i++) {
+                        var project = self.projects[i];
+                        if (project.name == name) {
+                            self.featuredProjects.push(project);
+                            return;
+                        }
+                    }
+                 });
             });
         }
-    ])
+    ]);
