@@ -2,10 +2,62 @@
     text-align: left;
 }
 
+.featured-projects .row .panel .panel-heading {
+    background-color: #00A3EE;
+}
+
+.featured-projects .row .panel .panel-heading .panel-title {
+    color: #F4F9FC;
+}
+
 .featured-projects .row .panel .description {
-    height: 300px;
+    height: 250px;
+}
+
+.featured-projects .panel-body .span-stars-group {
+    margin: 2px 10px 2px 2px;
+}
+
+.featured-projects .panel-body .span-forks-group {
+    margin: 2px 10px 2px 2px;
+}
+
+.featured-projects .panel-body .div-stats {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.all-projects .row .panel .panel-heading {
+    background-color: #EDEDED;
+}
+
+.all-projects .row .panel .panel-heading .panel-title {
+    color: #4F4F4F;
 }
 
 .all-projects .row .panel .description {
-    height: 300px;
+    height: 250px;
+}
+
+.all-projects .panel-body .span-stars-group {
+    margin: 2px 10px 2px 2px;
+}
+
+.all-projects .panel-body .span-forks-group {
+    margin: 2px 10px 2px 2px;
+}
+
+.all-projects .panel-body .div-stats {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.organizations .row {
+    background-color: #6DC2E9;
+    padding: 40px;
+}
+
+.organizations .row .orglink {
+    color: #F5F9F9;
+    
 }
