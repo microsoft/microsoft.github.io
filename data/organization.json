@@ -1,5 +1,5 @@
 [{
-    "name": "Microsoft Open Technologies, Inc.",
+    "name": "Microsoft Open Technologies",
     "url": "https://github.com/msopentech",
     "image": "https://avatars.githubusercontent.com/u/1638184?v=2&s=200"
 }, {
@@ -15,7 +15,7 @@
     "url": "https://github.com/OfficeDev",
     "image": ""
 }, {
-    "name": "The Cloud Programmability Group at Microsoft",
+    "name": "Cloud Programmability Group",
     "url": "https://github.com/Reactive-Extensions",
     "image": ""
 }, {
@@ -47,7 +47,7 @@
     "url": "https://github.com/nokia-developer",
     "image": ""
 }, {
-    "name": "Cloud and Information Services Lab, Microsoft",
+    "name": "Cloud and Information Services Lab",
     "url": "https://github.com/Microsoft-CISL",
     "image": ""
 }, {
@@ -55,7 +55,7 @@
     "url": "https://github.com/MicrosoftResearch",
     "image": ""
 }, {
-    "name": "Microsoft Open Source Technology Center",
+    "name": "Open Source Technology Center",
     "url": "https://github.com/OSTC",
     "image": ""
 }, {
@@ -63,7 +63,7 @@
     "url": "https://github.com/liveservices",
     "image": ""
 }, {
-    "name": "Microsoft Azure Active Directory Samples and Documentation",
+    "name": "Microsoft Azure AD Samples",
     "url": "https://github.com/AzureADSamples",
     "image": ""
 }, {
