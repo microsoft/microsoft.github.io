@@ -1,81 +1,101 @@
 [{
-    "name": "Microsoft Open Technologies",
+    "title": "Microsoft Open Technologies",
+    "name": "msopentech",
     "url": "https://github.com/msopentech",
     "image": "https://avatars.githubusercontent.com/u/1638184?v=2&s=200"
 }, {
-    "name": "ASP.Net",
+    "title": "ASP.Net",
+    "name": "aspnet",
     "url": "https://github.com/aspnet",
     "image": ""
 }, {
-    "name": "Microsoft Azure",
+    "title": "Microsoft Azure",
+    "name": "Azure",
     "url": "https://github.com/Azure",
     "image": "https://avatars0.githubusercontent.com/u/6844498?v=2&s=200"
 }, {
-    "name": "Office",
+    "title": "Office",
+    "name": "OfficeDev",
     "url": "https://github.com/OfficeDev",
     "image": ""
 }, {
-    "name": "Cloud Programmability Group",
+    "title": "Cloud Programmability Group",
+    "name": "Reactive-Extensions",
     "url": "https://github.com/Reactive-Extensions",
     "image": ""
 }, {
-    "name": "FUSE Labs at Microsoft Research",
+    "title": "FUSE Labs at Microsoft Research",
+    "name": "xfuselabs",
     "url": "https://github.com/xfuselabs",
     "image": ""
 }, {
-    "name": "Microsoft patterns & practices",
+    "title": "Microsoft patterns & practices",
+    "name": "mspnp",
     "url": "https://github.com/mspnp",
     "image": "https://avatars0.githubusercontent.com/u/1373420?v=2&s=200"
 }, {
-    "name": "Microsoft HPC Group",
+    "title": "Microsoft HPC Group",
+    "name": "MicrosoftHPC",
     "url": "https://github.com/MicrosoftHPC",
     "image": ""
 }, {
-    "name": "Yammer",
+    "title": "Yammer",
+    "name": "yammer",
     "url": "https://github.com/yammer",
     "image": ""
 }, {
-    "name": "NuGet",
+    "title": "NuGet",
+    "name": "nuget",
     "url": "https://github.com/nuget",
     "image": ""
 }, {
-    "name": "WinJS",
+    "title": "WinJS",
+    "name": "winjs",
     "url": "https://github.com/winjs",
     "image": "https://avatars2.githubusercontent.com/u/6923056?v=2&s=200"
 }, {
-    "name": "Microsoft Mobile",
+    "title": "Microsoft Mobile",
+    "name": "nokia-developer",
     "url": "https://github.com/nokia-developer",
     "image": ""
 }, {
-    "name": "Cloud and Information Services Lab",
+    "title": "Cloud and Information Services Lab",
+    "name": "Microsoft-CISL",
     "url": "https://github.com/Microsoft-CISL",
     "image": ""
 }, {
-    "name": "Microsoft Research",
+    "title": "Microsoft Research",
+    "name": "MicrosoftResearch",
     "url": "https://github.com/MicrosoftResearch",
     "image": ""
 }, {
-    "name": "Open Source Technology Center",
+    "title": "Open Source Technology Center",
+    "name": "OSTC",
     "url": "https://github.com/OSTC",
     "image": ""
 }, {
-    "name": "Microsoft Live Connect",
+    "title": "Microsoft Live Connect",
+    "name": "liveservices",
     "url": "https://github.com/liveservices",
     "image": ""
 }, {
-    "name": "Microsoft Azure AD Samples",
+    "title": "Microsoft Azure AD Samples",
+    "name": "AzureADSamples",
     "url": "https://github.com/AzureADSamples",
     "image": ""
 }, {
-    "name": "Microsoft Health Solutions Group",
+    "title": "Microsoft Health Solutions Group",
+    "name": "microsoft-hsg",
     "url": "https://github.com/microsoft-hsg",
     "image": ""
 }, {
-    "name": "Windows Azure Samples",
+    "title": "Windows Azure Samples",
+    "name": "WindowsAzure-Samples",
     "url": "https://github.com/WindowsAzure-Samples",
     "image": ""
 }, {
-    "name": "Azure Readiness",
+    "title": "Azure Readiness",
+    "name": "Azure-Readiness",
     "url": "https://github.com/Azure-Readiness",
     "image": ""
 }]
