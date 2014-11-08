@@ -98,4 +98,9 @@
     "name": "Azure-Readiness",
     "url": "https://github.com/Azure-Readiness",
     "image": ""
+}, {
+    "title": "Open Source from Microsoft",
+    "name": "Microsoft",
+    "url": "https://github.com/Microsoft",
+    "image": ""
 }]
