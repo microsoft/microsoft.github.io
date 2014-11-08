@@ -14,7 +14,7 @@
     overflow:hidden;
     -ms-text-overflow:ellipsis;
     text-overflow:ellipsis;
-    height:10em;
+    height: 90px;
 }
 
 .featured-projects .panel-body .span-stars-group {
@@ -26,18 +26,26 @@
 }
 
 .all-projects .row .panel .panel-heading {
-    background-color: #EDEDED;
+    background-color: rgb(237, 237, 237);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
 }
 
 .all-projects .row .panel .panel-heading .panel-title {
-    color: #4F4F4F;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.all-projects .row .panel .panel-heading a:hover, a:active {
+    text-decoration: none;
 }
 
 .all-projects .row .panel .description {
     overflow:hidden;
     -ms-text-overflow:ellipsis;
     text-overflow:ellipsis;
-    height:10em;
+    height: 90px;
 }
 
 .all-projects .panel-body .span-stars-group {
@@ -49,16 +57,16 @@
 }
 
 .organizations  {
-    background-color: #6DC2E9;
+    background-color: rgb(109, 194, 233);
     padding: 20px 50px 20px 50px;
 }
 
 .organizations .orgs-heading {
-    color: #F5F9F9;
+    color: #FFF;
     margin-bottom: 10px;
 }
 
 .organizations .row .orglink {
-    color: #F5F9F9;
+    color: #FFF;
     font-size: 13px;
 }
