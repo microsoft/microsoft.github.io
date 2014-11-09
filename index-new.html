@@ -90,38 +90,35 @@
                     <div class="loading" ng-hide="main.featuredProjects">Loading project information from Github...</div>
 
                     <!-- Carousel -->
-                    <div class="row carousel" ng-show="main.featuredProjects">
+                    <div id="carousel-featured-repos" class="row carousel" ng-show="main.featuredProjects" data-ride="carousel">
                         <!-- Indicators -->
-<!--                             <ol class="carousel-indicators">
-                                <li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
-                                <li data-target="#carousel-featured-repos" data-slide-to="1"></li>
-                                <li data-target="#carousel-featured-repos" data-slide-to="2"></li>
-                            </ol>
- -->
-                        <!-- Slide -->
-                        <div id="carousel-featured-repos" class="col-md-4 slide" data-ride="carousel" ng-repeat="project in main.featuredProjects" active="project.active">
-                            <div class="carousel-inner" role="listbox">
-                                <div class="panel panel-default item active">
-                                    <div class="panel-heading">
-                                        <a ng-href="{{project.html_url}}">
-                                            <h3 class="panel-title">{{project.name}}</h3>
-                                        </a>
-                                    </div>
-                                    <div class="panel-body description">{{project.description}}</div>
-                                    <div class="panel-body">
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
-                                                <span class="span-stars-group">
-                                                    {{project.stargazers_count}}
-                                                    <span class="glyphicon glyphicon-star"></span>
-                                                    stars
-                                                </span>
-                                                <span class="span-forks-group">
-                                                    {{project.forks}}
-                                                    <span class="glyphicon glyphicon-random"></span>
-                                                    forks
-                                                </span>
-                                            </div>
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-featured-repos" data-slide-to="1"></li>
+                            <li data-target="#carousel-featured-repos" data-slide-to="2"></li>
+                        </ol>
+                       <!-- Slide -->
+                        <div class="col-md-6 slide" ng-repeat="project in main.featuredProjects" active="project.active">
+                            <div class="carousel-inner panel panel-default item active" role="listbox">
+                                <div class="panel-heading">
+                                    <a ng-href="{{project.html_url}}">
+                                        <h3 class="panel-title">{{project.name}}</h3>
+                                    </a>
+                                </div>
+                                <div class="panel-body description">{{project.description}}</div>
+                                <div class="panel-body">
+                                    <div class="row">
+                                        <div class="col-sm-8 col-sm-offset-2">
+                                            <span class="span-stars-group">
+                                                {{project.stargazers_count}}
+                                                <span class="glyphicon glyphicon-star"></span>
+                                                stars
+                                            </span>
+                                            <span class="span-forks-group">
+                                                {{project.forks}}
+                                                <span class="glyphicon glyphicon-random"></span>
+                                                forks
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -369,6 +366,7 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
