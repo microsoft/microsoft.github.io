@@ -1,0 +1,84 @@
+﻿[
+    {
+      "GithubOrg": "Microsoft",
+      "GithubRepo": "TypeScript",
+      "Url": "http://www.typescriptlang.org",
+      "Language": "JavaScript",
+      "License": {
+        "Type": "Apache 2.0",
+        "Url": "https://github.com/Microsoft/TypeScript/blob/master/LICENSE.txt"
+      },
+      "Contributor" : "Microsoft"
+    },
+    {
+      "GithubOrg": "winjs",
+      "GithubRepo": "winjs",
+      "Name": "WinJS",
+      "Url": "http://try.buildwinjs.com/",
+      "Description": "The Windows Library for JavaScript (WinJS) is a cross-platform framework to build high-quality web apps across a variety of browsers and devices, including Chrome, Firefox, Android, iOS and Windows",
+      "Language": "JavaScript",
+      "License": {
+        "Type": "Apache 2.0",
+        "Url": "https://github.com/winjs/winjs/blob/master/License.txt"
+      },
+      "Contributor" : "Microsoft"
+    },
+    {
+      "GithubOrg": "aspnet",
+      "GithubRepo": "Home",
+      "Name": "ASP.NET",
+      "Url": "https://asp.net/",
+      "Description": "ASP.NET is an open source web framework for building great web sites and applications.",
+      "Language": "C#",
+      "License": {
+        "Type": "Apache 2.0",
+        "Url": "https://github.com/aspnet/Home/blob/master/LICENSE.txt"
+      },
+      "Contributor" : "Microsoft"
+    },
+    {
+      "GithubOrg": "Reactive-Extensions",
+      "GithubRepo": "RxJS",
+      "Name": "RxJS",
+      "Url": "http://reactive-extensions.github.com/RxJS/",
+      "Language": "JavaScript",
+      "License": {
+        "Type": "Apache 2.0",
+        "Url": "https://github.com/Reactive-Extensions/RxJS/blob/master/license.txt"
+      },
+      "Contributor" : "Microsoft"
+    },
+    {
+      "GithubOrg": "OfficeDev",
+      "GithubRepo": "PnP",
+      "Name": "Office365 Developer Patterns and Practices",
+      "Url": "https://github.com/OfficeDev/PnP",
+      "Description": "The source code for the SharePoint and Office Patterns and Practices (PnP) team",
+      "License": {
+        "Type": "Apache 2.0",
+        "Url": "https://github.com/OfficeDev/PnP/blob/master/LICENSE.md"
+      },
+      "Contributor" : "Microsoft"
+    },
+    {
+      "GithubOrg": "Microsoft",
+      "GithubRepo": "microsoft.github.io",
+      "Name": "Microsoft.github.io website",
+      "Language": "Javascript",
+      "License": {
+        "Type": "MIT",
+        "Url": "https://github.com/Microsoft/microsoft.github.io/blob/master/LICENSE.txt"
+      },
+      "Contributor" : "Microsoft"
+    },
+    {
+      "GithubOrg": "MSOpenTech",
+      "GithubRepo": "msopentech-tools-for-intellij",
+      "Name": "Tools for Intellij",
+      "License": {
+        "Type": "Apache 2.0",
+        "Url": "https://github.com/MSOpenTech/msopentech-tools-for-intellij/blob/master/LICENSE.TXT"
+      },
+      "Contributor" : "Microsoft"
+    }
+]
