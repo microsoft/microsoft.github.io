@@ -2,6 +2,7 @@
 <html ng-app="site">
 <head>
     <title>Microsoft on Github</title>
+    <link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2" />
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/mscom.css"/>
@@ -156,7 +157,7 @@
                         <div class="col-md-3" ng-repeat="org in main.orgs">
                             <a ng-href="{{org.url}}" class="orglink">
                                 <!-- <img ng-src="{{org.image}}" alt="{{org.image}}"> -->
-                                    <span class="text-center">{{org.name}}</span>
+                                    <span class="text-center">{{org.title}}</span>
                             </a>
                             
                         </div>
