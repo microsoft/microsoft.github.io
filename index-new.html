@@ -88,34 +88,54 @@
                 <div class="featured-projects">
                     <h3>Featured Repos</h3>
                     <div class="loading" ng-hide="main.featuredProjects">Loading project information from Github...</div>
-                    <div class="row" ng-show="main.featuredProjects">
-                        <div class="col-md-4" ng-repeat="project in main.featuredProjects">
-                            <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <a ng-href="{{project.html_url}}">
-                                        <h3 class="panel-title">{{project.name}}</h3>
-                                    </a>
-                                </div>
-                                <div class="panel-body description">{{project.description}}</div>
-                                <div class="panel-body">
-                                    <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <span class="span-stars-group">
-                                                {{project.stargazers_count}}
-                                                <span class="glyphicon glyphicon-star"></span>
-                                                stars
-                                            </span>
-                                            <span class="span-forks-group">
-                                                {{project.forks}}
-                                                <span class="glyphicon glyphicon-random"></span>
-                                                forks
-                                            </span>
+
+                    <!-- Carousel -->
+                    <div class="row carousel" ng-show="main.featuredProjects">
+                        <!-- Indicators -->
+<!--                             <ol class="carousel-indicators">
+                                <li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-featured-repos" data-slide-to="1"></li>
+                                <li data-target="#carousel-featured-repos" data-slide-to="2"></li>
+                            </ol>
+ -->
+                        <!-- Slide -->
+                        <div id="carousel-featured-repos" class="col-md-4 slide" data-ride="carousel" ng-repeat="project in main.featuredProjects" active="project.active">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="panel panel-default item active">
+                                    <div class="panel-heading">
+                                        <a ng-href="{{project.html_url}}">
+                                            <h3 class="panel-title">{{project.name}}</h3>
+                                        </a>
+                                    </div>
+                                    <div class="panel-body description">{{project.description}}</div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+                                                <span class="span-stars-group">
+                                                    {{project.stargazers_count}}
+                                                    <span class="glyphicon glyphicon-star"></span>
+                                                    stars
+                                                </span>
+                                                <span class="span-forks-group">
+                                                    {{project.forks}}
+                                                    <span class="glyphicon glyphicon-random"></span>
+                                                    forks
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-featured-repos" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left"></span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-featured-repos" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right"></span>
+                        </a>
+                    </div> 
                 </div>
                 
                 <div class="all-projects">
@@ -349,6 +369,7 @@
         </div>
     </footer>
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
