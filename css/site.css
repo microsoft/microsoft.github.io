@@ -103,7 +103,9 @@ div.jstree-wholerow-clicked {
     color: black !important;
 }
 
-
+.mscom-footer2 .credits {
+    font-size: 12px;
+}
 a.msopentech-link, a.msopentech-link:hover, a.msopentech-link:active {
     text-decoration: none;
 }
