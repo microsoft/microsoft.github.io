@@ -139,7 +139,8 @@
                     <h3>All Repos</h3>
                     <div class="loading" ng-hide="main.projects">Loading project information from Github...</div>
                     <div class="row" ng-show="main.projects">
-                        <div class="col-md-4" ng-repeat="project in main.projects | filter:searchText">
+                        <pagination data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;" data-next-text="&raquo;"></pagination>
+                        <div class="col-md-4" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit"">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <a ng-href="{{project.Url}}">
@@ -369,6 +370,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+    <script type='text/javascript' src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.2.0.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
