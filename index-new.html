@@ -91,51 +91,48 @@
 
                     <!-- Carousel -->
                     <div id="carousel-featured-repos" class="slide carousel" ng-show="main.featuredProjects" data-ride="carousel">
-
-                    <div id="carousel-featured-repos" class="row carousel" ng-show="main.featuredProjects" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-featured-repos" data-slide-to="1"></li>
                             <li data-target="#carousel-featured-repos" data-slide-to="2"></li>
                         </ol>
-                       <!-- Slide -->
-                       <!-- Slide -->
-                       <div class="carousel-inner">
-                           <div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
-                               <div class="panel panel-default clearfix">
-                                   <div class="panel-heading">
-                                       <a ng-href="{{project.html_url}}">
-                                           <h3 class="panel-title">{{project.name}}</h3>
-                                       </a>
-                                   </div>
-                                   <div class="panel-body description">{{project.description}}</div>
-                                   <div class="panel-body">
-                                       <div class="row">
-                                           <div class="col-sm-8 col-sm-offset-2">
-                                               <span class="span-stars-group">
-                                                   {{project.stargazers_count}}
-                                                   <span class="glyphicon glyphicon-star"></span>
-                                                   stars
-                                               </span>
-                                               <span class="span-forks-group">
-                                                   {{project.forks}}
-                                                   <span class="glyphicon glyphicon-random"></span>
-                                                   forks
-                                               </span>
-                                           </div>
-                                           </div>
+                        <!-- Slide -->
+                        <div class="carousel-inner">
+                            <div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
+                                <div class="panel panel-default clearfix">
+                                    <div class="panel-heading">
+                                        <a ng-href="{{project.html_url}}">
+                                            <h3 class="panel-title">{{project.name}}</h3>
+                                        </a>
+                                    </div>
+                                    <div class="panel-body description">{{project.description}}</div>
+                                    <div class="panel-body">
+                                        <div class="row">
+                                            <div class="col-sm-8 col-sm-offset-2">
+                                                <span class="span-stars-group">
+                                                    {{project.stargazers_count}}
+                                                    <span class="glyphicon glyphicon-star"></span>
+                                                    stars
+                                                </span>
+                                                <span class="span-forks-group">
+                                                    {{project.forks}}
+                                                    <span class="glyphicon glyphicon-random"></span>
+                                                    forks
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-featured-repos" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left"></span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-featured-repos" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right"></span>
+                            </a>
                         </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-featured-repos" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel-featured-repos" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right"></span>
-                        </a>
                     </div> 
                 </div>
                 
