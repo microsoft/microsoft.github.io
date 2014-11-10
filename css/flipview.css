@@ -1,0 +1,518 @@
+﻿/* Copyright (c) Microsoft Open Technologies, Inc.  All Rights Reserved. Licensed under the Apache License, Version 2.0. See License.txt in the project root for license information. */
+@keyframes WinJS-node-inserted {
+  from {
+    outline-color: #000;
+  }
+  to {
+    outline-color: #001;
+  }
+}
+@keyframes WinJS-opacity-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes WinJS-opacity-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes WinJS-scale-up {
+  from {
+    transform: scale(0.85);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes WinJS-scale-down {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.85);
+  }
+}
+@keyframes WinJS-default-remove {
+  from {
+    transform: translateX(11px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-default-remove-rtl {
+  from {
+    transform: translateX(-11px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-default-apply {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(11px);
+  }
+}
+@keyframes WinJS-default-apply-rtl {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(-11px);
+  }
+}
+@keyframes WinJS-showEdgeUI {
+  from {
+    transform: translateY(-70px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-showPanel {
+  from {
+    transform: translateX(364px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-showPanel-rtl {
+  from {
+    transform: translateX(-364px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-hideEdgeUI {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateY(-70px);
+  }
+}
+@keyframes WinJS-hidePanel {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(364px);
+  }
+}
+@keyframes WinJS-hidePanel-rtl {
+  from {
+    transform: none;
+  }
+  to {
+    transform: translateX(-364px);
+  }
+}
+@keyframes WinJS-showPopup {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-dragSourceEnd {
+  from {
+    transform: translateX(11px) scale(1.05);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-dragSourceEnd-rtl {
+  from {
+    transform: translateX(-11px) scale(1.05);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-enterContent {
+  from {
+    transform: translateX(40px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-enterContent-rtl {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-exit {
+  from {
+    transform: none;
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-enterPage {
+  from {
+    transform: translateX(100px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-enterPage-rtl {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: none;
+  }
+}
+@keyframes WinJS-updateBadge {
+  from {
+    transform: translateY(24px);
+  }
+  to {
+    transform: none;
+  }
+}
+@-webkit-keyframes WinJS-node-inserted {
+  from {
+    outline-color: #000;
+  }
+  to {
+    outline-color: #001;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-opacity-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-opacity-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-scale-up {
+  from {
+    -webkit-transform: scale(0.85);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-scale-down {
+  from {
+    -webkit-transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.85);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-default-remove {
+  from {
+    -webkit-transform: translateX(11px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-default-remove-rtl {
+  from {
+    -webkit-transform: translateX(-11px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-default-apply {
+  from {
+    -webkit-transform: none;
+  }
+  to {
+    -webkit-transform: translateX(11px);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-default-apply-rtl {
+  from {
+    -webkit-transform: none;
+  }
+  to {
+    -webkit-transform: translateX(-11px);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-showEdgeUI {
+  from {
+    -webkit-transform: translateY(-70px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-showPanel {
+  from {
+    -webkit-transform: translateX(364px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-showPanel-rtl {
+  from {
+    -webkit-transform: translateX(-364px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-hideEdgeUI {
+  from {
+    -webkit-transform: none;
+  }
+  to {
+    -webkit-transform: translateY(-70px);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-hidePanel {
+  from {
+    -webkit-transform: none;
+  }
+  to {
+    -webkit-transform: translateX(364px);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-hidePanel-rtl {
+  from {
+    -webkit-transform: none;
+  }
+  to {
+    -webkit-transform: translateX(-364px);
+  }
+}
+@-webkit-keyframes -webkit-WinJS-showPopup {
+  from {
+    -webkit-transform: translateY(50px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-dragSourceEnd {
+  from {
+    -webkit-transform: translateX(11px) scale(1.05);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-dragSourceEnd-rtl {
+  from {
+    -webkit-transform: translateX(-11px) scale(1.05);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-enterContent {
+  from {
+    -webkit-transform: translateX(40px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-enterContent-rtl {
+  from {
+    -webkit-transform: translateX(-40px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-exit {
+  from {
+    -webkit-transform: none;
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-enterPage {
+  from {
+    -webkit-transform: translateX(100px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-enterPage-rtl {
+  from {
+    -webkit-transform: translateX(-100px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@-webkit-keyframes -webkit-WinJS-updateBadge {
+  from {
+    -webkit-transform: translateY(24px);
+  }
+  to {
+    -webkit-transform: none;
+  }
+}
+@font-face {
+  font-family: "Segoe UI Command";
+  src: local("Segoe UI Symbol");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Symbols";
+  src: url(../fonts/Symbols.ttf);
+}
+
+.win-flipview {
+  overflow: hidden;
+  height: 400px;
+}
+.win-flipview .win-surface {
+  -ms-scroll-chaining: none;
+}
+.win-flipview .win-navleft {
+  left: 0%;
+  top: 50%;
+  margin-top: -19px;
+}
+.win-flipview .win-navright {
+  right: 0%;
+  top: 50%;
+  margin-left: -69px;
+  margin-top: -19px;
+}
+.win-flipview .win-navtop {
+  left: 50%;
+  top: 0%;
+  margin-left: -35px;
+}
+.win-flipview .win-navbottom {
+  left: 50%;
+  top: 100%;
+  margin-left: -35px;
+  margin-top: -36px;
+}
+.win-flipview .win-navbutton {
+  border: none;
+  width: 20px;
+  height: 36px;
+  z-index: 1;
+  position: absolute;
+  font-family: "Segoe UI Symbol", "Symbols";
+  font-size: 16pt;
+  padding: 0;
+  min-width: 0;
+}
+.win-flipview .win-item,
+.win-flipview .win-item > .win-template {
+  height: 100%;
+  width: 100%;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+@media (-ms-high-contrast) {
+  .win-flipview .win-navbottom {
+    left: 50%;
+    top: 100%;
+    margin-left: -35px;
+    margin-top: -35px;
+  }
+  .win-flipview .win-navbutton {
+    background-color: ButtonFace;
+    color: ButtonText;
+    border: 2px solid ButtonText;
+    width: 65px;
+    height: 35px;
+  }
+  .win-flipview .win-navbutton.win-navbutton:hover:active,
+  .win-flipview .win-navbutton.win-navbutton:active {
+    background-color: ButtonText;
+    color: ButtonFace;
+  }
+  .win-flipview .win-navright {
+    margin-left: -65px;
+  }
+  html.win-hoverable .win-flipview .win-navbutton:hover {
+    background-color: Highlight;
+    color: HighlightText;
+  }
+}
+.win-flipview .win-navbutton {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: rgba(255, 255, 255, 0.8);
+}
+.win-flipview .win-navbutton:hover:active {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+html.win-hoverable .win-flipview .win-navbutton:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.win-ui-dark .win-flipview .win-navbutton {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.8);
+}
+.win-ui-dark .win-flipview .win-navbutton:hover:active {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.win-ui-dark html.win-hoverable .win-flipview .win-navbutton:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.win-flipview.featured-flipview {
+    height: 200px;
+    background-color: #00A3EE;
+    color: #F4F9FC;
+}
+
+.win-flipview .win-item > .win-template, {
+    height: 200px;
+    width: 100%;
+}
+
+.featured-item {
+    height: 160px;
+    width: calc(100% - 40px);
+    padding: 20px;
+}
+
+.featured-item .name {
+    color: #fff;
+}
