@@ -40,48 +40,7 @@ angular
                             return;
                         }
                     }
-                });
-
-                FV.FlipView.featured = new WinJS.Binding.List(self.featuredProjects);
-                FV.FlipView.init();
+                 });
             });
         }
     ]);
-
-WinJS.Namespace.define("FV.FlipView", {
-    init: function () {
-        return WinJS.UI.processAll().then(function () {
-            return WinJS.Binding.processAll(null, FV.FlipView).then(function () {
-                var fv = document.querySelector(".win-flipview");
-                if (fv && fv.winControl) {
-                    FV.FlipView.fv = fv.winControl;
-                    WinJS.Promise.timeout().then(function () {
-                        fv.winControl.forceLayout();
-                    });
-                }
-            })
-        })
-    },
-
-    flip: WinJS.UI.eventHandler(function (ev) {
-        var fv = FV.FlipView.fv;
-        if (FV.FlipView.p !== null) {
-            FV.FlipView.p.cancel();
-        }
-        FV.FlipView.p = WinJS.Promise.timeout(5000).then(function () {
-            fv.count().then(function (count) {
-                if (fv.currentPage === count - 1) {
-                    FV.FlipView.p = null;
-                    fv.currentPage = 0;
-                } else {
-                    fv.next().then(function () {
-                        FV.FlipView.p = null;
-                    })
-                }
-            });
-        })
-    }),
-    p: null,
-    fv: null,
-    featured: null
-});
