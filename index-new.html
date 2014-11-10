@@ -86,7 +86,6 @@
         <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
             <div class="main-content">
                 <div class="featured-projects">
-                    <h3>Featured Repos</h3>
                     <div class="loading" ng-hide="main.featuredProjects">Loading project information from Github...</div>
 
                     <!-- Carousel -->
@@ -100,16 +99,16 @@
                         <!-- Slide -->
                         <div class="carousel-inner">
                             <div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
-                                <div class="panel panel-default clearfix">
+                                <div class="panel panel-default clearfix center">
                                     <div class="panel-heading">
                                         <a ng-href="{{project.html_url}}">
-                                            <h3 class="panel-title">{{project.name}}</h3>
+                                            <span class="panel-title">{{project.name}}</span>
                                         </a>
                                     </div>
                                     <div class="panel-body description">{{project.description}}</div>
                                     <div class="panel-body">
                                         <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-2">
+                                            <div class="col-sm-8 col-sm-offset-4 text-right">
                                                 <span class="span-stars-group">
                                                     {{project.stargazers_count}}
                                                     <span class="glyphicon glyphicon-star"></span>
