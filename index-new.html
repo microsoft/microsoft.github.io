@@ -101,21 +101,21 @@
                             <div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
                                 <div class="panel panel-default clearfix center">
                                     <div class="panel-heading">
-                                        <a ng-href="{{project.html_url}}">
-                                            <span class="panel-title">{{project.name}}</span>
+                                        <a ng-href="{{project.Url}}">
+                                            <span class="panel-title">{{project.Name}}</span>
                                         </a>
                                     </div>
-                                    <div class="panel-body description">{{project.description}}</div>
+                                    <div class="panel-body description">{{project.Description}}</div>
                                     <div class="panel-body">
                                         <div class="row">
                                             <div class="col-sm-8 col-sm-offset-4 text-right">
                                                 <span class="span-stars-group">
-                                                    {{project.stargazers_count}}
+                                                    {{project.Stars}}
                                                     <span class="glyphicon glyphicon-star"></span>
                                                     stars
                                                 </span>
                                                 <span class="span-forks-group">
-                                                    {{project.forks}}
+                                                    {{project.Forks}}
                                                     <span class="glyphicon glyphicon-random"></span>
                                                     forks
                                                 </span>
@@ -142,21 +142,21 @@
                         <div class="col-md-4" ng-repeat="project in main.projects | filter:searchText">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
-                                    <a ng-href="{{project.html_url}}">
-                                        <span class="panel-title">{{project.name}}</span>
+                                    <a ng-href="{{project.Url}}">
+                                        <span class="panel-title">{{project.Name}}</span>
                                     </a>
                                 </div>
-                                <div class="panel-body description">{{project.description}}</div>
+                                <div class="panel-body description">{{project.Description}}</div>
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="col-sm-8 col-sm-offset-2">
                                             <span class="span-stars-group">
-                                                {{project.stargazers_count}}
+                                                {{project.Stars}}
                                                 <span class="glyphicon glyphicon-star"></span>
                                                 stars
                                             </span>
                                             <span class="span-forks-group">
-                                                {{project.forks}}
+                                                {{project.Forks}}
                                                 <span class="glyphicon glyphicon-random"></span>
                                                 forks
                                             </span>

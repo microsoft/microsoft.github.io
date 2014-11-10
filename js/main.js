@@ -12,7 +12,7 @@ angular
 
             return {
                 featured: get('data/featured.json'),
-                projects: get('https://api.github.com/orgs/microsoft/repos?per_page=100'),
+                projects: get('data/allprojects.json' /* 'https://popularrepostg.blob.core.windows.net/popularrepos/projects.json' 'https://api.github.com/orgs/microsoft/repos?per_page=100' */),
                 orgs: get('data/organization.json')
             }
         }
@@ -25,7 +25,7 @@ angular
             });
 
             Backend.projects().then(function(data) {
-                self.projects = data;
+                self.projects = data.AllProjects;
             }).then(function(){
                 return Backend.featured();
             }).then(function(data){
@@ -35,7 +35,7 @@ angular
                 self.featured.forEach(function (name) {
                     for (var i = 0; i < self.projects.length; i++) {
                         var project = self.projects[i];
-                        if (project.name == name) {
+                        if (project.Name == name) {
                             self.featuredProjects.push(project);
                             return;
                         }
