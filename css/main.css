@@ -63,23 +63,47 @@
     background-color: rgb(237, 237, 237);
     color: rgb(0, 0, 0);
     text-decoration: none;
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    height: 50px;
 }
 
 .all-projects .row .panel .panel-heading .panel-title {
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 24px;
+    text-wrap: none;
+    white-space: nowrap;
 }
 
 .all-projects .row .panel .panel-heading a:hover, a:active {
     text-decoration: none;
 }
 
+.all-projects .row .panel .fork-info {
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    height: 40px;
+}
+
+.glyphicon {
+    margin: 0px 4px 0px 4px;
+    padding: 0px 4px 0px 4px;
+}
+    
+.all-projects .row .panel .fork-info span {
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+}
+
 .all-projects .row .panel .description {
     overflow:hidden;
     -ms-text-overflow:ellipsis;
     text-overflow:ellipsis;
-    height: 90px;
+    height: 65px;
 }
 
 .all-projects .panel-body .span-stars-group {
@@ -88,6 +112,13 @@
 
 .all-projects .panel-body .span-forks-group {
     margin: 2px 10px 2px 2px;
+}
+
+.all-projects .paginator li {
+    display:inline;
+    list-style-type: none;
+    padding-left: 20px;
+    cursor: pointer;
 }
 
 .organizations  {
