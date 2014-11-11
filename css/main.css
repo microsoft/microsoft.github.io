@@ -81,11 +81,29 @@
     text-decoration: none;
 }
 
+.all-projects .row .panel .fork-info {
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+    height: 40px;
+}
+
+.glyphicon {
+    margin: 0px 4px 0px 4px;
+    padding: 0px 4px 0px 4px;
+}
+    
+.all-projects .row .panel .fork-info span {
+    overflow:hidden;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
+}
+
 .all-projects .row .panel .description {
     overflow:hidden;
     -ms-text-overflow:ellipsis;
     text-overflow:ellipsis;
-    height: 90px;
+    height: 65px;
 }
 
 .all-projects .panel-body .span-stars-group {

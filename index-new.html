@@ -146,20 +146,17 @@
                                         <span class="panel-title">{{project.Name}}</span>
                                     </a>
                                 </div>
-                                <div class="panel-body description">{{project.Description}}</div>
+                                <div class="panel-body fork-info">
+                                    <span ng-if="project.Fork">
+                                        <span class="glyphicon glyphicon-random"></span>Forked from <a ng-href="{{project.ForkedFromUrl}}">{{project.ForkedFrom}}</a>
+                                    </span>
+                                </div>
+                                <div class="panel-body description"><span>{{project.Description}}</span></div>
                                 <div class="panel-body">
                                     <div class="row">
-                                        <div class="col-sm-8 col-sm-offset-2">
-                                            <span class="span-stars-group">
-                                                {{project.Stars}}
-                                                <span class="glyphicon glyphicon-star"></span>
-                                                stars
-                                            </span>
-                                            <span class="span-forks-group">
-                                                {{project.Forks}}
-                                                <span class="glyphicon glyphicon-random"></span>
-                                                forks
-                                            </span>
+                                        <div class="col-sm-10 col-sm-offset-1">
+                                            <span class="span-stars-group">{{project.Stars}}<span class="glyphicon glyphicon-star"></span>stars</span>
+                                            <span class="span-forks-group">{{project.Forks}}<span class="glyphicon glyphicon-random"></span>forks</span>
                                         </div>
                                     </div>
                                 </div>
