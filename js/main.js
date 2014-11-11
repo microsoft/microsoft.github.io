@@ -12,7 +12,7 @@ app.factory('Backend', ['$http',
 
         return {
             featured: get('data/featured.json'),
-            projects: get(/*'https://popularrepostg.blob.core.windows.net/popularrepos/projects.json'*/  'data/allprojects.json'),
+            projects: get('https://popularrepostg.blob.core.windows.net/popularrepos/projects.json' /* 'data/allprojects.json' */),
             orgs: get('data/organization.json')
         }
     }
