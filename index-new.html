@@ -139,9 +139,7 @@
                     <h3>All Repos</h3>
                     <div class="loading" ng-hide="main.projects">Loading data...</div>
                     <div class="row" ng-show="main.projects">
-                        <pagination class="col-md-12" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;"
-                            data-next-text="&raquo;"></pagination>
-                        <div class="col-md-4" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit"">
+                        <div class="col-sm-4 col-sm-offset-0" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
                                     <a ng-href="{{project.Url}}">
@@ -166,6 +164,10 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div>
+                            <pagination class="col-sm-12 paginator" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;"
+                                data-next-text="&raquo;"></pagination>
                         </div>
                     </div>
                 </div>
