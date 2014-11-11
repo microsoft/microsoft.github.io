@@ -32,32 +32,34 @@ app.factory('Backend', ['$http',
                 dataType: 'jsonp',
                 jsonpCallback: 'JSON_CALLBACK',
                 success: function(data) { 
-                    self.projects = data[0].AllProjects;
+                    var projects = data[0].AllProjects;
                     $scope.currentPage = 1; //current page
                     $scope.maxSize = 5; //pagination max size
                     $scope.entryLimit = 36; //max rows for data table
 
                     /* init pagination with $scope.list */
-                    $scope.noOfPages = Math.ceil(self.projects.length / $scope.entryLimit);
+                    $scope.noOfPages = Math.ceil(projects.length / $scope.entryLimit);
                     
                     $scope.$watch('searchText', function(term) {
                         // Create $scope.filtered and then calculate $scope.noOfPages, no racing!
-                        $scope.filtered = filterFilter(self.projects, term);
+                        $scope.filtered = filterFilter(projects, term);
                         $scope.noOfPages = Math.ceil($scope.filtered.length / $scope.entryLimit);
                     });
                     
-                    self.featuredProjects = new Array();
+                    var featuredProjects = new Array();
                     
                     self.featured.forEach(function (name) {
-                        for (var i = 0; i < self.projects.length; i++) {
-                            var project = self.projects[i];
+                        for (var i = 0; i < projects.length; i++) {
+                            var project = projects[i];
                             if (project.Name == name) {
-                                self.featuredProjects.push(project);
+                                featuredProjects.push(project);
                                 return;
                             }
                         }
                     });
-                            
+                        
+                    self.projects = projects;
+                    self.featuredProjects = featuredProjects;
                     $scope.$apply();
                 }
             });

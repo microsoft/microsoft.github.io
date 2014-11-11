@@ -89,7 +89,7 @@
                     <div class="loading" ng-hide="main.featuredProjects">Loading data...</div>
 
                     <!-- Carousel -->
-                    <div id="carousel-featured-repos" class="slide carousel" ng-show="main.featuredProjects" data-ride="carousel">
+                    <div id="carousel-featured-repos" class="slide carousel" ng-show="main.featuredProjects" data-ride="carousel" ng-cloak>
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
                             <li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
@@ -138,7 +138,7 @@
                 <div class="all-projects">
                     <h3>All Repos</h3>
                     <div class="loading" ng-hide="main.projects">Loading data...</div>
-                    <div class="row" ng-show="main.projects">
+                    <div class="row" ng-show="main.projects" ng-cloak>
                         <div class="col-md-4 col-md-offset-0 col-xs-6 col-xs-offset-0" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <div class="panel panel-default">
                                     <div class="panel-heading">
