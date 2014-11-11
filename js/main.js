@@ -12,7 +12,6 @@ app.factory('Backend', ['$http',
 
         return {
             featured: get('data/featured.json'),
-            projects: get('https://popularrepostg.blob.core.windows.net/popularrepos/projects.json' /* 'data/allprojects.json' */),
             orgs: get('data/organization.json')
         }
     }
@@ -20,39 +19,48 @@ app.factory('Backend', ['$http',
 .controller('MainCtrl', ['Backend', '$scope', 'filterFilter', 
     function(Backend, $scope, filterFilter) {
         var self = this;
+        
         Backend.orgs().then(function(data) {
             self.orgs = data;
         });
-
-        Backend.projects().then(function(data) {
-            self.projects = data.AllProjects;
-            $scope.currentPage = 1; //current page
-            $scope.maxSize = 5; //pagination max size
-            $scope.entryLimit = 36; //max rows for data table
-
-            /* init pagination with $scope.list */
-            $scope.noOfPages = Math.ceil(self.projects.length / $scope.entryLimit);
-            
-            $scope.$watch('searchText', function(term) {
-                // Create $scope.filtered and then calculate $scope.noOfPages, no racing!
-                $scope.filtered = filterFilter(self.projects, term);
-                $scope.noOfPages = Math.ceil($scope.filtered.length / $scope.entryLimit);
-            });
-        }).then(function(){
-            return Backend.featured();
-        }).then(function(data){
+        
+        Backend.featured().then(function(data) {
             self.featured = data;
-            self.featuredProjects = new Array();
-            
-            self.featured.forEach(function (name) {
-                for (var i = 0; i < self.projects.length; i++) {
-                    var project = self.projects[i];
-                    if (project.Name == name) {
-                        self.featuredProjects.push(project);
-                        return;
-                    }
+
+            $.ajax({
+                url: 'https://popularrepostg.blob.core.windows.net/popularrepos/projects.json',
+                dataType: 'jsonp',
+                jsonpCallback: 'JSON_CALLBACK',
+                success: function(data) { 
+                    self.projects = data[0].AllProjects;
+                    $scope.currentPage = 1; //current page
+                    $scope.maxSize = 5; //pagination max size
+                    $scope.entryLimit = 36; //max rows for data table
+
+                    /* init pagination with $scope.list */
+                    $scope.noOfPages = Math.ceil(self.projects.length / $scope.entryLimit);
+                    
+                    $scope.$watch('searchText', function(term) {
+                        // Create $scope.filtered and then calculate $scope.noOfPages, no racing!
+                        $scope.filtered = filterFilter(self.projects, term);
+                        $scope.noOfPages = Math.ceil($scope.filtered.length / $scope.entryLimit);
+                    });
+                    
+                    self.featuredProjects = new Array();
+                    
+                    self.featured.forEach(function (name) {
+                        for (var i = 0; i < self.projects.length; i++) {
+                            var project = self.projects[i];
+                            if (project.Name == name) {
+                                self.featuredProjects.push(project);
+                                return;
+                            }
+                        }
+                    });
+                            
+                    $scope.$apply();
                 }
-             });
+            });
         });
     }
 ])
@@ -65,3 +73,4 @@ app.factory('Backend', ['$http',
         return [];
     }
 });
+
