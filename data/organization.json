@@ -39,11 +39,6 @@
     "url": "https://github.com/MicrosoftHPC",
     "image": ""
 }, {
-    "title": "Yammer",
-    "name": "yammer",
-    "url": "https://github.com/yammer",
-    "image": ""
-}, {
     "title": "NuGet",
     "name": "nuget",
     "url": "https://github.com/nuget",
