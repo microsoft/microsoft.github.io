@@ -103,4 +103,24 @@
     "name": "Microsoft",
     "url": "https://github.com/Microsoft",
     "image": ""
+}, {
+    "title": "Internet of Things",
+    "name": "ms-iot",
+    "url": "https://github.com/ms-iot",
+    "image": ""
+}, {
+    "title": "OneDrive",
+    "name": "OneDrive",
+    "url": "https://github.com/OneDrive",
+    "image": ""
+}, {
+    "title": "Linux Integration Services",
+    "name": "LIS",
+    "url": "https://github.com/LIS",
+    "image": ""
+}, {
+    "title": "Reactive Extensions",
+    "name": "Reactive-Extensions",
+    "url": "https://github.com/Reactive-Extensions",
+    "image": ""
 }]
