@@ -141,11 +141,11 @@
                     <div class="row" ng-show="main.projects">
                         <div class="col-sm-4 col-sm-offset-0" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <div class="panel panel-default">
-                                <div class="panel-heading">
-                                    <a ng-href="{{project.Url}}">
-                                        <span class="panel-title">{{project.Name}}</span>
-                                    </a>
-                                </div>
+                                    <div class="panel-heading">
+                                        <a ng-href="{{project.Url}}">
+                                            <div class="panel-title-area"><span class="panel-title">{{project.Name}}</span></div>
+                                        </a>
+                                    </div>
                                 <div class="panel-body fork-info">
                                     <span ng-if="project.Fork">
                                         <span class="glyphicon glyphicon-random"></span>Forked from <a ng-href="{{project.ForkedFromUrl}}">{{project.ForkedFrom}}</a>
