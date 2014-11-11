@@ -86,7 +86,7 @@
         <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
             <div class="main-content">
                 <div class="featured-projects">
-                    <div class="loading" ng-hide="main.featuredProjects">Loading project information from Github...</div>
+                    <div class="loading" ng-hide="main.featuredProjects">Loading data...</div>
 
                     <!-- Carousel -->
                     <div id="carousel-featured-repos" class="slide carousel" ng-show="main.featuredProjects" data-ride="carousel">
@@ -137,9 +137,10 @@
                 
                 <div class="all-projects">
                     <h3>All Repos</h3>
-                    <div class="loading" ng-hide="main.projects">Loading project information from Github...</div>
+                    <div class="loading" ng-hide="main.projects">Loading data...</div>
                     <div class="row" ng-show="main.projects">
-                        <pagination data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;" data-next-text="&raquo;"></pagination>
+                        <pagination class="col-md-12" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;"
+                            data-next-text="&raquo;"></pagination>
                         <div class="col-md-4" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit"">
                             <div class="panel panel-default">
                                 <div class="panel-heading">
