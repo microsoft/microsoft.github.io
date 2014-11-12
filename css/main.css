@@ -70,6 +70,7 @@
     color: rgb(0, 0, 0);
     text-decoration: none;
     overflow:hidden;
+    text-wrap: none;
     -ms-text-overflow:ellipsis;
     text-overflow:ellipsis;
     height: 50px;
@@ -81,15 +82,16 @@
 }
 
 .all-projects .row .panel .panel-heading .panel-title-area {
+    color: rgb(0, 0, 0);
+    font-size: 24px;
     padding: 10px 15px 10px 15px;
-}
-
-.all-projects .row .panel .panel-heading .panel-title {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    font-size: 24px;
+    overflow:hidden;
     text-wrap: none;
     white-space: nowrap;
+    -ms-text-overflow:ellipsis;
+    text-overflow:ellipsis;
 }
 
 .all-projects .row .panel .fork-info {

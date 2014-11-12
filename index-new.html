@@ -101,9 +101,7 @@
                             <div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
                                 <div class="panel panel-default clearfix center carousel-panel">
                                     <div class="panel-heading">
-                                        <a ng-href="{{project.Url}}">
-                                            <span class="panel-title">{{project.Name}}</span>
-                                        </a>
+                                        <span class="panel-title">{{project.Name}}</span>
                                     </div>
                                     <div class="panel-body description">{{project.Description}}</div>
                                     <div class="panel-body">
@@ -143,7 +141,7 @@
                             <div class="panel panel-default">
                                     <div class="panel-heading">
                                         <a ng-href="{{project.Url}}">
-                                            <div class="panel-title-area"><span class="panel-title">{{project.Name}}</span></div>
+                                            <div class="panel-title-area">{{project.Name}}</div>
                                         </a>
                                     </div>
                                 <div class="panel-body fork-info">
@@ -188,8 +186,7 @@
     <footer style="">
         <div class="row-fluid" data-cols="1" data-view1="1" data-view2="1" data-view3="1"
          data-view4="1">
-            <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control"
-                 xmlns:bi="urn:schemas-microsoft-com:mscom:bi" bi:pgarea="footer">
+            <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
                 <div>
                     <div class="CSPvNext     CMSvNextComp mscom-footer">
                         <div class="row-fluid mscom-footer-row-1 mscom-container-maxwidth mscom-grid-container"
@@ -200,19 +197,17 @@
                                         <div class="row-fluid no-margin-row" data-cols="1" data-view1="1" data-view2="1"
                                              data-view3="1" data-view4="1">
                                             <div class="span  bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
-                                                <ul " bi:type=" list">
+                                                <ul>
                                                     <li class="heading">
                                                         Blogs:
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
-                                                           href="http://msopentech.com/blog/" target="_self"
-                                                           bi:index="1" bi:linkid="65">Microsoft Open Technologies Blog</a>
+                                                           href="http://msopentech.com/blog/" target="_self">Microsoft Open Technologies Blog</a>
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
-                                                           href="http://blogs.windows.com/buildingapps/" target="_self"
-                                                           bi:index="1" bi:linkid="65">Building Apps for Windows</a>
+                                                           href="http://blogs.windows.com/buildingapps/" target="_self">Building Apps for Windows</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -226,20 +221,17 @@
                                         <div class="row-fluid no-margin-row" data-cols="1" data-view1="1" data-view2="1"
                                              data-view3="1" data-view4="1">
                                             <div class="span  bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
-                                                <ul style="list-style-type: none;"
-                                                    bi:type="list">
+                                                <ul style="list-style-type: none;">
                                                     <li class="heading">
                                                         &nbsp;
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
-                                                           href="http://blogs.office.com/dev/" target="_self"
-                                                           bi:index="1" bi:linkid="65">Office Developer</a>
+                                                           href="http://blogs.office.com/dev/" target="_self">Office Developer</a>
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
-                                                           href="http://blogs.msdn.com/b/bingdevcenter/" target="_self"
-                                                           bi:index="2" bi:linkid="66">Bing Dev Center Team Blog</a>
+                                                           href="http://blogs.msdn.com/b/bingdevcenter/" target="_self">Bing Dev Center Team Blog</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -253,21 +245,20 @@
                                         <div class="row-fluid no-margin-row" data-cols="1" data-view1="1" data-view2="1"
                                              data-view3="1" data-view4="1">
                                             <div class="span  bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
-                                                <ul style="list-style-type: none;"
-                                                    bi:type="list">
+                                                <ul style="list-style-type: none;">
                                                     <li class="heading">
                                                         &nbsp;
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
-                                                           href="http://blogs.technet.com/b/serverandtools/" target="_self" bi:index="1" bi:linkid="70">
+                                                           href="http://blogs.technet.com/b/serverandtools/" target="_self">
                                                             Microsoft Cloud + Enterprise
                                                         </a>
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
                                                            href="http://blogs.msdn.com/b/ie/"
-                                                           target="_self" bi:index="2" bi:linkid="71">
+                                                           target="_self">
                                                             IEBlog
                                                         </a>
                                                     </li>
@@ -283,8 +274,7 @@
                                         <div class="row-fluid no-margin-row" data-cols="1" data-view1="1" data-view2="1"
                                              data-view3="1" data-view4="1">
                                             <div class="span  bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 sortable-control">
-                                                <ul style="list-style-type: none;"
-                                                    bi:type="list">
+                                                <ul style="list-style-type: none;">
                                                     <li class="heading">
                                                         <span class="loc">
                                                             Contact us at:
@@ -293,12 +283,11 @@
                                                     <li>
                                                         <a class="mscom-link"
                                                            href="mailto:oss@microsoft.com"
-                                                           target="_self" bi:index="1" bi:linkid="90">Open Source Program Office</a>
+                                                           target="_self">Open Source Program Office</a>
                                                     </li>
                                                     <li>
                                                         <a class="mscom-link"
-                                                           href="https://twitter.com/openatmicrosoft" target="_self"
-                                                           bi:index="2" bi:linkid="91">Twitter</a>
+                                                           href="https://twitter.com/openatmicrosoft" target="_self">Twitter</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -333,8 +322,7 @@
                                             <div style="position:absolute; bottom:0;">
                                                 <div style="text-align:left; margin-bottom:3px;">
                                                     <a class="mscom-link msopentech-link"
-                                                       href="http://www.msopentech.com" target="_self"
-                                                       bi:linkid="H60">
+                                                       href="http://www.msopentech.com" target="_self">
                                                         <span>
                                                             Open Source Program Office
                                                         </span>
@@ -342,8 +330,7 @@
                                                 </div>
                                                 <div>
                                                     <a class="mscom-link msopentech-link"
-                                                       href="http://www.msopentech.com" target="_self"
-                                                       bi:linkid="H60">
+                                                       href="http://www.msopentech.com" target="_self">
                                                         <img src="img/MSOpenTech_logo.png" />
                                                     </a>
                                                 </div>
@@ -358,22 +345,18 @@
                                                          src="img/ms-footer.png">
                                                 </div>
                                                 <div class="list2" style="text-align: right;">
-                                                    <ul style="list-style-type: none;"
-                                                        bi:type="list">
+                                                    <ul style="list-style-type: none;">
                                                         <li style="margin-right:20px;">
                                                             <a class="mscom-link"
-                                                               href="http://go.microsoft.com/fwlink/?LinkId=248681" target="_self" bi:index="1"
-                                                               bi:linkid="995">Privacy &amp; cookies</a>
+                                                               href="http://go.microsoft.com/fwlink/?LinkId=248681" target="_self">Privacy &amp; cookies</a>
                                                         </li>
                                                         <li style="margin-left:25px;">
                                                             <a class="mscom-link"
-                                                               href="~/TOU" target="_self" bi:index="2"
-                                                               bi:linkid="997">Terms of use</a>
+                                                               href="~/TOU" target="_self">Terms of use</a>
                                                         </li>
                                                         <li>
                                                             <a class="mscom-link"
-                                                               href="http://go.microsoft.com/?linkid=9851308" target="_self" bi:index="3"
-                                                               bi:linkid="999">Trademarks</a>
+                                                               href="http://go.microsoft.com/?linkid=9851308" target="_self">Trademarks</a>
                                                         </li>
                                                         <li style="margin-left:25px;">&copy; 2014 Microsoft</li>
                                                     </ul>
