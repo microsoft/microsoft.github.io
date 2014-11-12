@@ -44,6 +44,11 @@
     "url": "https://github.com/nuget",
     "image": ""
 }, {
+    "title": "Yammer", 
+    "name": "yammer", 
+    "url": "https://github.com/yammer", 
+    "image": "" 
+}, { 
     "title": "WinJS",
     "name": "winjs",
     "url": "https://github.com/winjs",
