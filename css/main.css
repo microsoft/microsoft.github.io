@@ -22,6 +22,11 @@
     width: 70%;
 }
 
+.featured-projects .carousel-inner .carousel-panel {
+    margin-bottom: 0px; 
+    padding-bottom:20px;
+}
+    
 .featured-projects .carousel-inner .panel .panel-heading {
     background-color: #01BCF3;
     border: none;
