@@ -1,10 +1,17 @@
 microsoft.github.io
 ===================
 
-A simple redirector to point onto the Microsoft Openness Site.
+Source for the microsoft.github.io website. Contributions are welcome.
+You can also email oss@microsoft.com if you have any questions about this site or the
+Microsoft GitHub organization in general.
 
-Note, if the Microsoft Open Source project you are looking for isn't here then
-we have several other Organizations on GitHub:
+Note, if the Microsoft Open Source project you are looking for isn't in this organization
+then we have several other projects hosted on CodePlex here:
+
+- https://www.codeplex.com/site/users/view/MSOpenTech
+- https://www.codeplex.com/site/users/view/Microsoft
+
+### List of Microsoft Organizations on GitHub:
 
 -  https://github.com/aspnet
 -  https://github.com/Azure
@@ -13,6 +20,7 @@ we have several other Organizations on GitHub:
 -  https://github.com/fuselabs
 -  https://github.com/liveservices 
 -  https://github.com/LIS
+-  https://github.com/Microsoft 
 -  https://github.com/Microsoft-CISL 
 -  https://github.com/microsoft-hsg
 -  https://github.com/MicrosoftHPC
@@ -30,8 +38,3 @@ we have several other Organizations on GitHub:
 -  https://github.com/WindowsAzure-Samples
 -  https://github.com/winjs
 -  https://github.com/yammer
-
-There are also projects hosted on CodePlex here:
-
-- https://www.codeplex.com/site/users/view/MSOpenTech
-- https://www.codeplex.com/site/users/view/Microsoft
