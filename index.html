@@ -134,9 +134,10 @@
                 </div>
                 
                 <div class="all-projects">
-                    <h3>All Repos</h3>
+                    <h3>{{resultsSectionTitle}}</h3>
                     <div class="loading" ng-hide="main.projects">Loading data...</div>
-                    <div class="row" ng-show="main.projects" ng-cloak>
+                    <div class="row no-repos" ng-show="!isUndefined(main.projects) && (noOfRepos == 0)" ng-cloak>No repos found containing the search term '{{searchText}}'.</div>
+                    <div class="row" ng-show="!isUndefined(main.projects) && (noOfRepos > 0)" ng-cloak>
                         <div class="col-md-4 col-md-offset-0 col-xs-6 col-xs-offset-0" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <div class="panel panel-default">
                                     <div class="panel-heading">
@@ -161,8 +162,7 @@
                             </div>
                         </div>
                         <div>
-                            <pagination class="col-xs-12 paginator" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;"
-                                data-next-text="&raquo;"></pagination>
+                            <pagination class="col-xs-12 paginator" ng-show="noOfRepos > 12" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;" data-next-text="&raquo;"></pagination>
                         </div>
                     </div>
                 </div>
