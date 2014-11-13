@@ -4,6 +4,7 @@
     <title>Microsoft on GitHub</title>
     <link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/mscom.css"/>
     <link rel="stylesheet" href="css/site.css"/>
@@ -107,16 +108,8 @@
                                     <div class="panel-body">
                                         <div class="row">
                                             <div class="col-sm-8 col-sm-offset-4 col-xs-12 col-xs-offset-0 text-right">
-                                                <span class="span-stars-group">
-                                                    {{project.Stars}}
-                                                    <span class="glyphicon glyphicon-star"></span>
-                                                    stars
-                                                </span>
-                                                <span class="span-forks-group">
-                                                    {{project.Forks}}
-                                                    <span class="glyphicon glyphicon-random"></span>
-                                                    forks
-                                                </span>
+                                                <span class="span-stars-group"><i class="fa fa-star"></i> {{project.Stars}} stars</span>
+                                                <span class="span-forks-group"><i class="fa fa-code-fork"></i> {{project.Forks}} forks</span>
                                             </div>
                                         </div>
                                     </div>
@@ -154,8 +147,8 @@
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="center">
-                                            <span class="span-stars-group">{{project.Stars}}<span class="glyphicon glyphicon-star"></span>stars</span>
-                                            <span class="span-forks-group">{{project.Forks}}<span class="glyphicon glyphicon-random"></span>forks</span>
+                                            <span class="span-stars-group"><i class="fa fa-star"></i> {{project.Stars}} stars</span>
+                                            <span class="span-forks-group"><i class="fa fa-code-fork"></i> {{project.Forks}} forks</span>
                                         </div>
                                     </div>
                                 </div>
