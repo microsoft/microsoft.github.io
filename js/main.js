@@ -38,12 +38,16 @@ app.factory('Backend', ['$http',
                     $scope.entryLimit = 36; //max rows for data table
 
                     /* init pagination with $scope.list */
-                    $scope.noOfPages = Math.ceil(projects.length / $scope.entryLimit);
+                    $scope.noOfRepos = projects.length;
+                    $scope.noOfPages = Math.ceil($scope.noOfRepos / $scope.entryLimit);
+                    $scope.resultsSectionTitle = 'All Repos';
                     
                     $scope.$watch('searchText', function(term) {
                         // Create $scope.filtered and then calculate $scope.noOfPages, no racing!
                         $scope.filtered = filterFilter(projects, term);
-                        $scope.noOfPages = Math.ceil($scope.filtered.length / $scope.entryLimit);
+                        $scope.noOfRepos = $scope.filtered.length;
+                        $scope.noOfPages = Math.ceil($scope.noOfRepos / $scope.entryLimit);
+                        $scope.resultsSectionTitle = (!term) ? 'All Repos' : (($scope.noOfRepos == 0) ? 'Search results' : ($scope.noOfRepos + ' repositories found'));
                     });
                     
                     var featuredProjects = new Array();

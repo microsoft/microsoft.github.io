@@ -1,3 +1,7 @@
+[ng\:cloak], [ng-cloak], .ng-cloak {
+  display: none !important;
+}
+
 .loading {
     text-align: left;
 }
@@ -65,6 +69,12 @@
     color: #FFF !important;
 }
 
+.all-projects .no-repos {
+    margin: 10px 0px 20px 50px;
+    font-size: 20px;
+    color: #F65314;
+}
+    
 .all-projects .row .panel .panel-heading {
     background-color: rgb(237, 237, 237);
     color: rgb(0, 0, 0);
