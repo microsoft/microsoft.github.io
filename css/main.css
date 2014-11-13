@@ -20,6 +20,10 @@
     background-color: #01BCF3;
 }
 
+.featured-projects .carousel-inner .item a:hover, a:active {
+    text-decoration: none;
+}
+
 .featured-projects .carousel-inner .panel {
     background-color: #01BCF3;
     border: none;
@@ -67,6 +71,7 @@
     background: none !important; 
     filter: progid:none !important; 
     color: #FFF !important;
+    cursor: pointer;
 }
 
 .all-projects .no-repos {

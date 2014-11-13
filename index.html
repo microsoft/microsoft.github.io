@@ -100,27 +100,29 @@
                         <!-- Slide -->
                         <div class="carousel-inner">
                             <div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
-                                <div class="panel panel-default clearfix center carousel-panel">
-                                    <div class="panel-heading">
-                                        <span class="panel-title">{{project.Name}}</span>
-                                    </div>
-                                    <div class="panel-body description">{{project.Description}}</div>
-                                    <div class="panel-body">
-                                        <div class="row">
-                                            <div class="col-sm-8 col-sm-offset-4 col-xs-12 col-xs-offset-0 text-right">
-                                                <span class="span-stars-group"><i class="fa fa-star"></i> {{project.Stars}} stars</span>
-                                                <span class="span-forks-group"><i class="fa fa-code-fork"></i> {{project.Forks}} forks</span>
+                                <a ng-href="{{project.Url}}">
+                                    <div class="panel panel-default clearfix center carousel-panel">
+                                        <div class="panel-heading">
+                                            <span class="panel-title">{{project.Name}}</span>
+                                        </div>
+                                        <div class="panel-body description">{{project.Description}}</div>
+                                        <div class="panel-body">
+                                            <div class="row">
+                                                <div class="col-sm-8 col-sm-offset-4 col-xs-12 col-xs-offset-0 text-right">
+                                                    <span class="span-stars-group"><i class="fa fa-star"></i> {{project.Stars}} stars</span>
+                                                    <span class="span-forks-group"><i class="fa fa-code-fork"></i> {{project.Forks}} forks</span>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-featured-repos" role="button" data-slide="prev">
+                        <a class="left carousel-control" href="#carousel-featured-repos" data-slide="prev">
                             <span class="glyphicon glyphicon-chevron-left"></span>
                         </a>
-                        <a class="right carousel-control" href="#carousel-featured-repos" role="button" data-slide="next">
+                        <a class="right carousel-control" href="#carousel-featured-repos" data-slide="next">
                             <span class="glyphicon glyphicon-chevron-right"></span>
                         </a>
                     </div> 
