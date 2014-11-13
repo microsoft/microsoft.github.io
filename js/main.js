@@ -1,4 +1,4 @@
-var app = angular.module('site', ['ui.bootstrap']);
+var app = angular.module('site', ['ui.bootstrap', 'ngAria']);
 
 app.factory('Backend', ['$http',
     function($http) {

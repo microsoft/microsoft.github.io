@@ -4,7 +4,6 @@
     <title>Microsoft on GitHub</title>
     <link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/mscom.css"/>
     <link rel="stylesheet" href="css/site.css"/>
@@ -131,8 +130,8 @@
                 <div class="all-projects">
                     <h3>{{resultsSectionTitle}}</h3>
                     <div class="loading" ng-hide="main.projects">Loading data...</div>
-                    <div class="row no-repos" ng-show="!isUndefined(main.projects) && (noOfRepos == 0)" ng-cloak>No repos found containing the search term '{{searchText}}'.</div>
-                    <div class="row" ng-show="!isUndefined(main.projects) && (noOfRepos > 0)" ng-cloak>
+                    <div class="row no-repos" ng-show="main.projects && (noOfRepos == 0)" ng-cloak>No repos found containing the search term '{{searchText}}'.</div>
+                    <div class="row" ng-show="main.projects && (noOfRepos > 0)" ng-cloak>
                         <div class="col-md-4 col-md-offset-0 col-xs-6 col-xs-offset-0" ng-repeat="project in filtered | startFrom:(currentPage-1)*entryLimit | limitTo:entryLimit">
                             <div class="panel panel-default">
                                     <div class="panel-heading">
@@ -149,8 +148,8 @@
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="center">
-                                            <span class="span-stars-group"><i class="fa fa-star"></i> {{project.Stars}} stars</span>
-                                            <span class="span-forks-group"><i class="fa fa-code-fork"></i> {{project.Forks}} forks</span>
+                                            <span class="span-stars-group">{{project.Stars}}<span class="glyphicon glyphicon-star"></span>stars</span>
+                                            <span class="span-forks-group">{{project.Forks}}<span class="glyphicon glyphicon-random"></span>forks</span>
                                         </div>
                                     </div>
                                 </div>
@@ -373,7 +372,8 @@
     
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular-aria.min.js"></script>
     <script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.2.0.js"></script>
     <script src="js/main.js"></script>
 </body>
