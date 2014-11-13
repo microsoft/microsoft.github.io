@@ -1,4 +1,4 @@
-var app = angular.module('site', ['ui.bootstrap']);
+var app = angular.module('site', ['ui.bootstrap', 'ngAria']);
 
 app.factory('Backend', ['$http',
     function($http) {
@@ -16,14 +16,14 @@ app.factory('Backend', ['$http',
         }
     }
 ])
-.controller('MainCtrl', ['Backend', '$scope', 'filterFilter', 
+.controller('MainCtrl', ['Backend', '$scope', 'filterFilter',
     function(Backend, $scope, filterFilter) {
         var self = this;
-        
+
         Backend.orgs().then(function(data) {
             self.orgs = data;
         });
-        
+
         Backend.featured().then(function(data) {
             self.featured = data;
 
@@ -31,7 +31,7 @@ app.factory('Backend', ['$http',
                 url: 'https://popularrepostg.blob.core.windows.net/popularrepos/projects.json',
                 dataType: 'jsonp',
                 jsonpCallback: 'JSON_CALLBACK',
-                success: function(data) { 
+                success: function(data) {
                     var projects = data[0].AllProjects;
                     $scope.currentPage = 1; //current page
                     $scope.maxSize = 5; //pagination max size
@@ -41,7 +41,7 @@ app.factory('Backend', ['$http',
                     $scope.noOfRepos = projects.length;
                     $scope.noOfPages = Math.ceil($scope.noOfRepos / $scope.entryLimit);
                     $scope.resultsSectionTitle = 'All Repos';
-                    
+
                     $scope.$watch('searchText', function(term) {
                         // Create $scope.filtered and then calculate $scope.noOfPages, no racing!
                         $scope.filtered = filterFilter(projects, term);
@@ -49,9 +49,9 @@ app.factory('Backend', ['$http',
                         $scope.noOfPages = Math.ceil($scope.noOfRepos / $scope.entryLimit);
                         $scope.resultsSectionTitle = (!term) ? 'All Repos' : (($scope.noOfRepos == 0) ? 'Search results' : ($scope.noOfRepos + ' repositories found'));
                     });
-                    
+
                     var featuredProjects = new Array();
-                    
+
                     self.featured.forEach(function (name) {
                         for (var i = 0; i < projects.length; i++) {
                             var project = projects[i];
@@ -61,7 +61,7 @@ app.factory('Backend', ['$http',
                             }
                         }
                     });
-                        
+
                     self.projects = projects;
                     self.featuredProjects = featuredProjects;
                     $scope.$apply();
