@@ -5,13 +5,19 @@ Source for the microsoft.github.io website. Contributions are welcome.
 You can also email oss@microsoft.com if you have any questions about this site or the
 Microsoft GitHub organization in general.
 
-Note, if the Microsoft Open Source project you are looking for isn't in this organization
-then we have several other projects hosted on CodePlex here:
+How to contribute?
+=====================
 
-- https://www.codeplex.com/site/users/view/MSOpenTech
-- https://www.codeplex.com/site/users/view/Microsoft
+1. Before starting work on a new feature, enhancement, or fix, please create an issue and optionally assign it to yourself or a developer.
+1. Fork the repository and make your changes against the 'development' branch (not master).
+1. After making your changes in your fork, run tests and ensure that the page looks good and works with all supported browsers.
+1. If you have made a series of commits into the 'development' branch, please try to squash them into a small number of commits.
+1. Issue a Pull Request against the 'development' branch (not master).
+1. The admins will review your code and may optionally request conformance, functional or other changes. Work with them to resolve any issues.
+1. Upon acceptance, your code will be merged into the master branch and will become available for all.
 
-### List of Microsoft Organizations on GitHub:
+List of Microsoft Organizations on GitHub
+=========================================
 
 -  https://github.com/aspnet
 -  https://github.com/Azure
@@ -39,3 +45,9 @@ then we have several other projects hosted on CodePlex here:
 -  https://github.com/WindowsAzure-Samples
 -  https://github.com/winjs
 -  https://github.com/yammer
+
+Note, if the Microsoft Open Source project you are looking for is not in one of these organizations
+then we have several other projects hosted on CodePlex here:
+
+- https://www.codeplex.com/site/users/view/MSOpenTech
+- https://www.codeplex.com/site/users/view/Microsoft
