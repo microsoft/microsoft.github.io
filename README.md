@@ -21,7 +21,8 @@ then we have several other projects hosted on CodePlex here:
 -  https://github.com/liveservices 
 -  https://github.com/LIS
 -  https://github.com/Microsoft 
--  https://github.com/Microsoft-CISL 
+-  https://github.com/Microsoft-CISL
+-  https://github.com/MicrosoftGenomics
 -  https://github.com/microsoft-hsg
 -  https://github.com/MicrosoftHPC
 -  https://github.com/MicrosoftResearch 
