@@ -128,4 +128,9 @@
     "name": "SignalR",
     "url": "https://github.com/SignalR",
     "image": ""
+}, {
+    "title": "Microsoft Genomics",
+    "name": "MicrosoftGenomics",
+    "url": "https://github.com/MicrosoftGenomics",
+    "image": ""
 }]
