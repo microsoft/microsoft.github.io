@@ -128,7 +128,7 @@
                 </div>
                 
                 <div class="all-projects">
-                    <h3>{{resultsSectionTitle}}</h3>
+                    <h3 ng-cloak>{{resultsSectionTitle}}</h3>
                     <div class="loading" ng-hide="main.projects">Loading data...</div>
                     <div class="row no-repos" ng-show="main.projects && (noOfRepos == 0)" ng-cloak>No repos found containing the search term '{{searchText}}'.</div>
                     <div class="row" ng-show="main.projects && (noOfRepos > 0)" ng-cloak>
@@ -167,7 +167,7 @@
                         <div class="col-md-3 col-xs-6" ng-repeat="org in main.orgs">
                             <a ng-href="{{org.url}}" class="orglink">
                                 <!-- <img ng-src="{{org.image}}" alt="{{org.image}}"> -->
-                                    <span class="text-center">{{org.title}}</span>
+                                    <span class="text-center" ng-cloak>{{org.title}}</span>
                             </a>
                             
                         </div>
