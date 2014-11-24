@@ -16,8 +16,8 @@ app.factory('Backend', ['$http',
         }
     }
 ])
-.controller('MainCtrl', ['Backend', '$scope', 'filterFilter', 
-    function(Backend, $scope, filterFilter) {
+.controller('MainCtrl', ['Backend', '$scope', 'filterFilter', '$anchorScroll',
+    function(Backend, $scope, filterFilter, $anchorScroll) {
         var self = this;
         
         Backend.orgs().then(function(data) {
@@ -41,6 +41,9 @@ app.factory('Backend', ['$http',
                     $scope.noOfRepos = projects.length;
                     $scope.noOfPages = Math.ceil($scope.noOfRepos / $scope.entryLimit);
                     $scope.resultsSectionTitle = 'All Repos';
+                    $scope.pageChanged = function() {
+                        $anchorScroll();
+                    };
                     
                     $scope.$watch('searchText', function(term) {
                         // Create $scope.filtered and then calculate $scope.noOfPages, no racing!
