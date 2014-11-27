@@ -121,3 +121,13 @@ ul.toulist{
 ul.toulist li{
     font-family:  wf_segoe-ui_light;
 }
+div.metric-value {
+    text-align:right; 
+    margin-right:0px; 
+    padding-right:0px;
+}
+
+div.metric-label {
+    text-align:left; 
+    margin-left:0px; 
+}
