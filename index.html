@@ -4,6 +4,7 @@
     <title>Microsoft on GitHub</title>
     <link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2" />
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css"/>
     <link rel="stylesheet" href="css/mscom.css"/>
     <link rel="stylesheet" href="css/site.css"/>
@@ -47,7 +48,7 @@
                                                         <span class="mscom-search-Border" id="ctl00_SearchBox">
                                                             <div class="mscom-search-Container">
                                                                 <input name="searchQuery"
-                                                                       title="Search Download Center"
+                                                                       title="Search all Microsoft repos"
                                                                        class="mscom-search-TextBox"
                                                                        id="searchQuery"
                                                                        type="text"
@@ -95,6 +96,7 @@
                             <li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-featured-repos" data-slide-to="1"></li>
                             <li data-target="#carousel-featured-repos" data-slide-to="2"></li>
+                            <li data-target="#carousel-featured-repos" data-slide-to="3"></li>
                         </ol>
                         <!-- Slide -->
                         <div class="carousel-inner">
@@ -108,13 +110,35 @@
                                         <div class="panel-body">
                                             <div class="row">
                                                 <div class="col-sm-8 col-sm-offset-4 col-xs-12 col-xs-offset-0 text-right">
-                                                    <span class="span-stars-group">{{project.Stars}}<span class="glyphicon glyphicon-star"></span>stars</span>
-                                                    <span class="span-forks-group">{{project.Forks}}<span class="glyphicon glyphicon-random"></span>forks</span>
+                                                    <span class="span-stars-group">{{project.Stars}}<i class="fa fa-star fa-fw"></i>stars</span>
+                                                    <span class="span-forks-group">{{project.Forks}}<i class="fa fa-code-fork fa-fw"></i>forks</span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </a>
+                            </div>
+                            <!--Summary slide-->
+                            <div class="item">
+                                <div class="panel panel-default clearfix center carousel-panel" style="height:273px;">
+                                    <div class="panel-heading">
+                                        <span class="panel-title">Overall</span>
+                                    </div>
+                                    <div class="panel-body description">
+                                        <div class="row ">
+                                            <div class="col-md-4 metric-value">{{overAllStats.Projects}}</div>
+                                            <div class="col-sm-2 metric-label">Repos</div>
+                                            <div class="col-sm-2 metric-value">{{overAllStats.Stars}}</div>
+                                            <div class="col-md-4 metric-label"><i class="fa fa-star"></i>&nbsp;Stars</div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4 metric-value">{{overAllStats.Forks}}</div>
+                                            <div class="col-sm-2 metric-label"><i class="fa fa-code-fork"></i>&nbsp;Forks</div>
+                                            <div class="col-sm-2 metric-value">{{overAllStats.Issues}}</div>
+                                            <div class="col-md-4 metric-label">Open Issues</div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <!-- Controls -->
@@ -148,15 +172,15 @@
                                 <div class="panel-body">
                                     <div class="row">
                                         <div class="center">
-                                            <span class="span-stars-group">{{project.Stars}}<span class="glyphicon glyphicon-star"></span>stars</span>
-                                            <span class="span-forks-group">{{project.Forks}}<span class="glyphicon glyphicon-random"></span>forks</span>
+                                            <span class="span-stars-group">{{project.Stars}}<i class="fa fa-star fa-fw"></i>stars</span>
+                                            <span class="span-forks-group">{{project.Forks}}<i class="fa fa-code-fork fa-fw"></i>forks</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div>
-                            <pagination class="col-xs-12 paginator" ng-show="noOfRepos > 12" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize" class="pagination-small" data-previous-text="&laquo;" data-next-text="&raquo;"></pagination>
+                            <pagination class="col-xs-12 paginator pagination-small" ng-show="noOfRepos > 12" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" max-size="maxSize"  data-previous-text="&laquo;" data-next-text="&raquo;"></pagination>
                         </div>
                     </div>
                 </div>
