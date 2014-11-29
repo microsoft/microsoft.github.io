@@ -67,6 +67,16 @@ app.factory('Backend', ['$http',
                     $scope.$apply();
                 }
             });
+            $.ajax({
+                url: 'https://popularrepostg.blob.core.windows.net/popularrepos/projectssummary.json',
+                dataType: 'jsonp',
+                jsonpCallback: 'JSON_CALLBACK',
+                success: function (stats) {
+                    if (stats != null) {
+                        $scope.overAllStats = stats[0];
+                    }
+                }
+            })
         });
     }
 ])
