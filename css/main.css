@@ -31,10 +31,10 @@
 }
 
 .featured-projects .carousel-inner .carousel-panel {
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
     padding-bottom:20px;
 }
-    
+
 .featured-projects .carousel-inner .panel .panel-heading {
     background-color: #01BCF3;
     border: none;
@@ -67,9 +67,9 @@
     font-size: 18px;
 }
 
-.carousel-control.left, .carousel-control.right{ 
-    background: none !important; 
-    filter: progid:none !important; 
+.carousel-control.left, .carousel-control.right{
+    background: none !important;
+    filter: progid:none !important;
     color: #FFF !important;
     cursor: pointer;
 }
@@ -79,7 +79,7 @@
     font-size: 20px;
     color: #F65314;
 }
-    
+
 .all-projects .row .panel .panel-heading {
     background-color: rgb(237, 237, 237);
     color: rgb(0, 0, 0);
@@ -122,7 +122,7 @@
     margin: 0px 4px 0px 4px;
     padding: 0px 4px 0px 4px;
 }
-    
+
 .all-projects .row .panel .fork-info span {
     overflow:hidden;
     -ms-text-overflow:ellipsis;
@@ -164,4 +164,53 @@
 .organizations .row .orglink {
     color: #FFF;
     font-size: 13px;
+}
+hr {
+    margin-top: 1px;
+    color: rgb(109,194,233);
+}
+.btn {
+    display: inline-block;
+    padding: 6px 10px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 0;
+    text-align: center;
+    white-space: nowrap;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 6px;
+}
+.btn-primary:focus,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.btn-primary.focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary.focus {
+    color: #333;
+    text-decoration: none;
+}
+.btn-primary {
+    color: #fff;
+    background-color: rgb(0,163,238);
+    border-color: black;
+}
+.icon {
+    margin-top: 7px;
 }
