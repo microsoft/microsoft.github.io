@@ -84,9 +84,9 @@
     "url": "https://github.com/microsoft-hsg",
     "image": ""
 }, {
-    "title": "Windows Azure Samples",
-    "name": "WindowsAzure-Samples",
-    "url": "https://github.com/WindowsAzure-Samples",
+    "title": "Azure Samples",
+    "name": "Azure-Samples",
+    "url": "https://github.com/Azure-Samples",
     "image": ""
 }, {
     "title": "Azure Readiness",
