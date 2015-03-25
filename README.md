@@ -42,7 +42,7 @@ List of Microsoft Organizations on GitHub
 -  https://github.com/OSTC 
 -  https://github.com/Reactive-Extensions
 -  https://github.com/SignalR
--  https://github.com/WindowsAzure-Samples
+-  https://github.com/Azure-Samples
 -  https://github.com/winjs
 -  https://github.com/yammer
 
