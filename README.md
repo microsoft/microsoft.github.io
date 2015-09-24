@@ -28,6 +28,7 @@ List of Microsoft Organizations on GitHub
 -  https://github.com/LIS
 -  https://github.com/Microsoft 
 -  https://github.com/Microsoft-CISL
+-  https://github.com/MicrosoftEdge
 -  https://github.com/MicrosoftGenomics
 -  https://github.com/microsoft-hsg
 -  https://github.com/MicrosoftHPC
