@@ -79,6 +79,11 @@
     "url": "https://github.com/AzureADSamples",
     "image": ""
 }, {
+    "title": "Microsoft Azure Federal",
+    "name": "AzureFederal",
+    "url": "https://github.com/AzureFederal",
+    "image": ""
+}, {
     "title": "Microsoft Health Solutions Group",
     "name": "microsoft-hsg",
     "url": "https://github.com/microsoft-hsg",
