@@ -19,11 +19,6 @@
     "url": "https://github.com/OfficeDev",
     "image": ""
 }, {
-    "title": "Cloud Programmability Group",
-    "name": "Reactive-Extensions",
-    "url": "https://github.com/Reactive-Extensions",
-    "image": ""
-}, {
     "title": "FUSE Labs at Microsoft Research",
     "name": "fuselabs",
     "url": "https://github.com/fuselabs",
@@ -44,11 +39,11 @@
     "url": "https://github.com/nuget",
     "image": ""
 }, {
-    "title": "Yammer", 
-    "name": "yammer", 
-    "url": "https://github.com/yammer", 
-    "image": "" 
-}, { 
+    "title": "Yammer",
+    "name": "yammer",
+    "url": "https://github.com/yammer",
+    "image": ""
+}, {
     "title": "WinJS",
     "name": "winjs",
     "url": "https://github.com/winjs",
@@ -84,14 +79,19 @@
     "url": "https://github.com/AzureADSamples",
     "image": ""
 }, {
+    "title": "Microsoft Azure Federal",
+    "name": "AzureFederal",
+    "url": "https://github.com/AzureFederal",
+    "image": ""
+}, {
     "title": "Microsoft Health Solutions Group",
     "name": "microsoft-hsg",
     "url": "https://github.com/microsoft-hsg",
     "image": ""
 }, {
-    "title": "Windows Azure Samples",
-    "name": "WindowsAzure-Samples",
-    "url": "https://github.com/WindowsAzure-Samples",
+    "title": "Azure Samples",
+    "name": "Azure-Samples",
+    "url": "https://github.com/Azure-Samples",
     "image": ""
 }, {
     "title": "Azure Readiness",
@@ -133,4 +133,9 @@
     "name": "MicrosoftGenomics",
     "url": "https://github.com/MicrosoftGenomics",
     "image": ""
+}, {
+    "title": "Microsoft Edge",
+    "name": "MicrosoftEdge",
+    "url": "https://github.com/MicrosoftEdge",
+    "image": "https://avatars2.githubusercontent.com/u/11354582?v=3&s=200"
 }]
