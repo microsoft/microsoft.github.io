@@ -39,6 +39,7 @@ List of Microsoft Organizations on GitHub
 -  https://github.com/mspnp
 -  https://github.com/nokia-developer
 -  https://github.com/nuget
+-  https://github.com/OData
 -  https://github.com/OfficeDev
 -  https://github.com/OneDrive
 -  https://github.com/OSTC
