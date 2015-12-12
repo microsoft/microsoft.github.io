@@ -29,7 +29,7 @@
 	width: 100%;
 }
 .CSPvNext .mscom-grid-container.row-fluid {
-	width: 96%;
+	width: 98.4%;
 }
 .CSPvNext .mscom-grid-container {
 	width: 96%;
@@ -365,7 +365,7 @@
 {
 .CSPvNext .row-fluid > .span {
 	width: 100%;
-	margin-top:20px; 
+	margin-top:20px;
 }
 .CSPvNext .row-fluid .bp0-clear {
 	clear: both;
@@ -3745,6 +3745,8 @@ a.mscom-account-viewonelink {
 .mscom-footer {
 	/*background-color: rgb(238, 238, 238);*/
     background-color: rgb(0, 163, 238);
+		width: 91.7%;
+		margin-left: 4.2%;
 }
 .mscom-footer .mscom-footer-row-1 {
     /* was*/
