@@ -105,6 +105,8 @@
     overflow:hidden;
     text-wrap: none;
     white-space: nowrap;
+    vertical-align: middle;
+    line-height: 100%;
     -ms-text-overflow:ellipsis;
     text-overflow:ellipsis;
 }
