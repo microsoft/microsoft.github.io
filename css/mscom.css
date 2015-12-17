@@ -29,7 +29,7 @@
 	width: 100%;
 }
 .CSPvNext .mscom-grid-container.row-fluid {
-	width: 96%;
+	width: 98.4%;
 }
 .CSPvNext .mscom-grid-container {
 	width: 96%;
@@ -365,6 +365,7 @@
 {
 .CSPvNext .row-fluid > .span {
 	width: 100%;
+	margin-top:20px;
 }
 .CSPvNext .row-fluid .bp0-clear {
 	clear: both;
@@ -3034,6 +3035,10 @@ a.mscom-siteIdentity:hover {
 .mscom-siteLogo .mscom-image {
 	max-width: none;
 }
+.mscom-image
+{
+	margin-right: 20px;
+}
 .lt-ie9 .mscom-siteLogo {
 	display: block;
 }
@@ -3480,9 +3485,9 @@ a.mscom-account-viewonelink {
 }
 .mscom-header {
     /* changed the header bottom border to blue*/
-	/*border-bottom-color: rgb(238, 238, 238);*/ 
+	/*border-bottom-color: rgb(238, 238, 238);*/
 	border-bottom-color: rgb(0, 163, 238);
-    border-bottom-width: 0.3em; 
+    border-bottom-width: 0.3em;
     border-bottom-style: solid;
 }
 .mscom-header::after {
@@ -3528,7 +3533,7 @@ a.mscom-account-viewonelink {
 	width: 1.25em; height: 1.25em;
 }
 .mscom-header .row-fluid .mscom-header-nav-section {
-	
+
 }
 .mscom-header {
 	margin-top: 1em;
@@ -3600,7 +3605,7 @@ a.mscom-account-viewonelink {
 }
 }
 .navIe7 {
-	
+
 }
 .mscom-nav .mscom-nav-container {
 	margin: 0px 0px 0px -0.93em;
@@ -3740,6 +3745,8 @@ a.mscom-account-viewonelink {
 .mscom-footer {
 	/*background-color: rgb(238, 238, 238);*/
     background-color: rgb(0, 163, 238);
+		width: 91.7%;
+		margin-left: 4.2%;
 }
 .mscom-footer .mscom-footer-row-1 {
     /* was*/
@@ -3755,7 +3762,7 @@ a.mscom-account-viewonelink {
     padding-bottom:.5em;
 }
 .mscom-footer a {
-	/*color: rgb(21, 112, 166);*/ 
+	/*color: rgb(21, 112, 166);*/
     color: rgb(238, 238, 238) !important;
     font-size: 0.9em;
 }
@@ -3766,7 +3773,7 @@ a.mscom-account-viewonelink {
 	color: rgb(8, 48, 71);
 }
 .mscom-footer .heading {
-	/*font-size: 1em;*/ 
+	/*font-size: 1em;*/
     font-size:13px;
     color: rgb(238, 238, 238) !important;
     font-weight: bold;
@@ -3776,9 +3783,9 @@ a.mscom-account-viewonelink {
 	margin-top: 1.5em;
 }
 .mscom-footer li {
-	margin: 0px 0px 0.25em; 
-    line-height: 1.25; 
-    /*font-size: 1em;*/ 
+	margin: 0px 0px 0.25em;
+    line-height: 1.25;
+    /*font-size: 1em;*/
     font-size:13px;
     display: block;
 }
@@ -3786,7 +3793,7 @@ a.mscom-account-viewonelink {
 	margin-bottom: 0.75em;
 }
 .mscom-footer .mscom-footer-productlist a {
-	color: rgb(26, 26, 26); 
+	color: rgb(26, 26, 26);
     font-size: 1em;
 }
 .mscom-footer .mscom-footer-productlist img {
@@ -3802,7 +3809,7 @@ a.mscom-account-viewonelink {
 	margin-right: 1.5em; display: inline-block;
 }
 .mscom-footer .mscom-footer-defaultlink li a {
-	
+
 }
 .mscom-footer .mscom-footer-defaultlink .heading {
 	font-size: 0.81em;
@@ -3868,7 +3875,7 @@ a.mscom-account-viewonelink {
 	margin-left: 0px;
 }
 .lt-ie8 .mscom-footer .mscom-footer-localepicker span.icon-globe {
-	
+
 }
 .features {
 	clear: both;
@@ -5400,7 +5407,7 @@ body.lt-ie9 .mscom-accordion .selected > .mscom-accordion-item-link:hover .mscom
 	left: 10px;
 }
 .mscom-popup .mscom-popup-close-image {
-	
+
 }
 .mscom-popup .mscom-popup-close-image::before {
 	display: inline-block; content: url("/CMSImages/LeftArrow_Grey.png?version=0BD21141-D55B-E8B9-18EF-F6AFA6676176");
@@ -5863,7 +5870,7 @@ div.noscript a {
 	padding: 0px 0.3em; color: rgb(33, 125, 182);
 }
 .mscom-popup .mscom-popup-close-image {
-	
+
 }
 .mscom-popup .mscom-popup-close-image::before {
 	display: inline-block; content: url("/CMSImages/Closed_btn_21x21.png?version=3EBBE94B-AC86-4624-1AB4-F214AEC7D4EE");
@@ -6013,7 +6020,7 @@ div.overlay-container {
 }
 }
 .CSPvNext .row-fluid {
-	
+
 }
 .CSPvNext .row-fluid .popularDownloads {
 	color: rgb(80, 80, 80); line-height: 1.25em; position: relative;
@@ -7330,7 +7337,7 @@ div.regsys-opt h2 {
 	display: none;
 }
 .confirm-instructions {
-	
+
 }
 .confirm-instructions .chooseFile {
 	height: 480px; color: rgb(51, 51, 51);
@@ -8662,5 +8669,5 @@ div .StarOverlay {
 	margin-left: 0px;
 }
 .msstoreie7 {
-	
+
 }
