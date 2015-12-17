@@ -89,12 +89,11 @@ div.jstree-wholerow-clicked {
 
 }
 
-.mscom-footer2{
-    background-color:white !important;
-    color:black !important;    
+.mscom-footer3{
+    padding-bottom: .85%;
 }
 
-.mscom-footer2  a 
+.mscom-footer3  a 
 {
     color: black !important;
 }

@@ -19,11 +19,6 @@
     "url": "https://github.com/OfficeDev",
     "image": ""
 }, {
-    "title": "Cloud Programmability Group",
-    "name": "Reactive-Extensions",
-    "url": "https://github.com/Reactive-Extensions",
-    "image": ""
-}, {
     "title": "FUSE Labs at Microsoft Research",
     "name": "fuselabs",
     "url": "https://github.com/fuselabs",
@@ -89,9 +84,9 @@
     "url": "https://github.com/microsoft-hsg",
     "image": ""
 }, {
-    "title": "Windows Azure Samples",
-    "name": "WindowsAzure-Samples",
-    "url": "https://github.com/WindowsAzure-Samples",
+    "title": "Azure Samples",
+    "name": "Azure-Samples",
+    "url": "https://github.com/Azure-Samples",
     "image": ""
 }, {
     "title": "Azure Readiness",
