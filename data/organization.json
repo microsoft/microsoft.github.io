@@ -39,11 +39,11 @@
     "url": "https://github.com/nuget",
     "image": ""
 }, {
-    "title": "Yammer", 
-    "name": "yammer", 
-    "url": "https://github.com/yammer", 
-    "image": "" 
-}, { 
+    "title": "Yammer",
+    "name": "yammer",
+    "url": "https://github.com/yammer",
+    "image": ""
+}, {
     "title": "WinJS",
     "name": "winjs",
     "url": "https://github.com/winjs",
@@ -128,4 +128,9 @@
     "name": "MicrosoftGenomics",
     "url": "https://github.com/MicrosoftGenomics",
     "image": ""
+}, {
+    "title": "Microsoft Edge",
+    "name": "MicrosoftEdge",
+    "url": "https://github.com/MicrosoftEdge",
+    "image": "https://avatars2.githubusercontent.com/u/11354582?v=3&s=200"
 }]
