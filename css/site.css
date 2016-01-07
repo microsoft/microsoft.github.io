@@ -61,7 +61,7 @@ pre {
     overflow:auto;
 }
 
-#file-viewer-pre 
+#file-viewer-pre
 {
     background-color: white !important;
 }
@@ -89,12 +89,17 @@ div.jstree-wholerow-clicked {
 
 }
 
-.mscom-footer2{
-    background-color:white !important;
-    color:black !important;    
+.mscom-footer3{
+    padding-bottom: .85%;
 }
 
-.mscom-footer2  a 
+.mscom-footer3  a 
+.mscom-footer2{
+    background-color:white !important;
+    color:black !important;
+}
+.mscom-footer2  a
+
 {
     color: black !important;
 }
@@ -105,9 +110,7 @@ div.jstree-wholerow-clicked {
 
 .mscom-footer2 .credits {
     font-size: 12px;
-}
-a.msft-link, a.msft-link:hover, a.msft-link:active {
-    text-decoration: none;
+    margin-bottom: 20px; 
 }
 
 .tou{
@@ -121,13 +124,23 @@ ul.toulist{
 ul.toulist li{
     font-family:  wf_segoe-ui_light;
 }
+
 div.metric-value {
     text-align:right; 
     margin-right:0px; 
     padding-right:0px;
 }
-
 div.metric-label {
     text-align:left; 
     margin-left:0px; 
+}
+
+div.metric-value {
+    text-align:right;
+    margin-right:0px;
+    padding-right:0px;
+}
+div.metric-label {
+    text-align:left;
+    margin-left:0px;
 }
