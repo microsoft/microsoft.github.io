@@ -16,7 +16,6 @@ app.factory('Backend', ['$http',
         };
     }
 ])
-
 .controller('MainCtrl', ['Backend', '$scope', 'filterFilter', '$anchorScroll',
     function(Backend, $scope, filterFilter, $anchorScroll) {
         var self = this;

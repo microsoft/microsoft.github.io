@@ -29,7 +29,7 @@
 	width: 100%;
 }
 .CSPvNext .mscom-grid-container.row-fluid {
-	width: 96%;
+	width: 98.4%;
 }
 .CSPvNext .mscom-grid-container {
 	width: 96%;
@@ -365,6 +365,7 @@
 {
 .CSPvNext .row-fluid > .span {
 	width: 100%;
+	margin-top:20px;
 }
 .CSPvNext .row-fluid .bp0-clear {
 	clear: both;
@@ -3049,7 +3050,7 @@ a.mscom-siteIdentity:hover {
 }
 .mscom-siteLogo .mscom-image {
 	max-width: none;
-}
+} 
 .lt-ie9 .mscom-siteLogo {
 	display: block;
 }
@@ -3777,6 +3778,8 @@ a.mscom-account-viewonelink {
 .mscom-footer-alt {
 	/*background-color: rgb(238, 238, 238);*/
     background-color: rgb(0, 163, 238);
+    width: 91.7%; 
+    margin-left: 4.2%;
 }
 .mscom-footer-gray {
 	color: #fff;
