@@ -2712,9 +2712,6 @@ body {
 .CMSvNextComp a:link {
 	text-decoration: none;
 }
-.CMSvNextComp a:visited {
-	text-decoration: none;
-}
 .CMSvNextComp a:hover {
 	text-decoration: underline;
 }
@@ -3022,7 +3019,7 @@ a.mscom-siteIdentity:link {
 	color: rgb(51, 51, 51); font-size: 30px; text-decoration: none;
 }
 a.mscom-siteIdentity:visited {
-	color: rgb(51, 51, 51); font-size: 30px; text-decoration: none;
+	color: rgb(51, 51, 51);
 }
 a.mscom-siteIdentity:active {
 	color: rgb(51, 51, 51); font-size: 30px; text-decoration: none;
@@ -3033,9 +3030,6 @@ a.mscom-siteIdentity:hover {
 @media screen and (max-width:539px)
 {
 a.mscom-siteIdentity:link {
-	font-size: 20px;
-}
-a.mscom-siteIdentity:visited {
 	font-size: 20px;
 }
 a.mscom-siteIdentity:active {
@@ -3409,7 +3403,7 @@ a.mscom-account-text {
 	padding: 0px 5px; color: rgb(0, 114, 198); font-size: 13px; text-decoration: none;
 }
 .mscom-account-text a:visited {
-	padding: 0px 5px; color: rgb(0, 114, 198); font-size: 13px; text-decoration: none;
+	color: rgb(0, 114, 198);
 }
 .mscom-account-text a:active {
 	padding: 0px 5px; color: rgb(0, 114, 198); font-size: 13px; text-decoration: none;
@@ -3424,7 +3418,7 @@ a.mscom-account-text:link {
 	padding: 0px 5px; color: rgb(0, 114, 198); font-size: 13px; text-decoration: none;
 }
 a.mscom-account-text:visited {
-	padding: 0px 5px; color: rgb(0, 114, 198); font-size: 13px; text-decoration: none;
+	color: rgb(0, 114, 198);
 }
 a.mscom-account-text:active {
 	padding: 0px 5px; color: rgb(0, 114, 198); font-size: 13px; text-decoration: none;
@@ -4591,7 +4585,7 @@ html[dir='rtl'].iem7 .grid-row .grid-unit {
 	color: inherit; cursor: pointer; pointer-events: auto;
 }
 .box a:visited {
-	color: inherit; cursor: pointer; pointer-events: auto;
+	color: inherit;
 }
 .box a:hover {
 	color: inherit; cursor: pointer; pointer-events: auto;
@@ -5857,7 +5851,7 @@ a:link {
 	color: rgb(21, 112, 166); text-decoration: none;
 }
 a:visited {
-	color: rgb(21, 112, 166); text-decoration: none;
+	color: rgb(21, 112, 166);
 }
 a:hover {
 	color: rgb(21, 112, 166); text-decoration: underline;
@@ -6156,9 +6150,6 @@ div.overlay-container {
 	width: 100%;
 }
 .CSPvNext .row-fluid .PopularDownloadInHomePage a:link {
-	font-size: 123%;
-}
-.CSPvNext .row-fluid .PopularDownloadInHomePage a:visited {
 	font-size: 123%;
 }
 .CSPvNext .row-fluid .PopularDownloadInHomePage a:hover {
@@ -6691,7 +6682,7 @@ div.moreinfo-scrollable .download-main-article .mscom-accordion-item-container .
 	color: rgb(21, 112, 166); line-height: 1.4em; font-family: wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif; font-size: 81.25%;
 }
 .prodOffer a:visited {
-	color: rgb(21, 112, 166); line-height: 1.4em; font-family: wf_segoe-ui_normal,"Segoe UI",Segoe,"Segoe WP",Tahoma,Verdana,Arial,sans-serif; font-size: 81.25%;
+	color: rgb(21, 112, 166);
 }
 .prodOffer a.product-offer-title-link {
 	font-weight: bold;
@@ -6802,7 +6793,7 @@ div.installDlm-warn div.moreinfo-desc {
 	color: rgb(21, 112, 166); font-size: 100%; text-decoration: none;
 }
 .other-system-note a.change-system:visited {
-	color: rgb(21, 112, 166); font-size: 100%; text-decoration: none;
+	color: rgb(21, 112, 166);
 }
 .other-system-note .osnames {
 	font-weight: bold; margin-left: 10px;
@@ -6847,7 +6838,7 @@ div.installDlm-warn div.moreinfo-desc {
 	color: rgb(255, 255, 255); text-decoration: none;
 }
 .changebits-overlay a:visited {
-	color: rgb(255, 255, 255); text-decoration: none;
+	color: rgb(255, 255, 255);
 }
 .changebits-overlay .disabled {
 	border: 1px solid gray; border-image: none; cursor: default; background-color: gray;
@@ -7329,9 +7320,6 @@ div.regsys-opt h2 {
 .confirm-instructions a:link {
 	text-decoration: none;
 }
-.confirm-instructions a:visited {
-	text-decoration: none;
-}
 .confirm-instructions a:hover {
 	text-decoration: none;
 }
@@ -7771,7 +7759,7 @@ p.new-line-span {
 	color: inherit; cursor: pointer; pointer-events: auto;
 }
 .box a:visited {
-	color: inherit; cursor: pointer; pointer-events: auto;
+	color: inherit;
 }
 .box a:hover {
 	color: inherit; cursor: pointer; pointer-events: auto;
@@ -8622,9 +8610,6 @@ div .pager a.page_next:hover {
 .msstore_clip_desc a:link {
 	text-decoration: none;
 }
-.msstore_clip_desc a:visited {
-	text-decoration: none;
-}
 .msstore_clip_desc a:active {
 	text-decoration: none;
 }
@@ -8659,9 +8644,6 @@ div .pager a.page_next:hover {
 	text-decoration: none;
 }
 .msstore_seemore a:link {
-	text-decoration: none;
-}
-.msstore_seemore a:visited {
 	text-decoration: none;
 }
 .msstore_seemore a:active {
