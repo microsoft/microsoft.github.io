@@ -19,33 +19,45 @@ How to contribute?
 List of Microsoft Organizations on GitHub
 =========================================
 
--  https://github.com/aspnet
 -  https://github.com/Azure
+-  https://github.com/AzureAD
 -  https://github.com/AzureADSamples
+-  https://github.com/AzureFederal
 -  https://github.com/Azure-Readiness
+-  https://github.com/Azure-Samples
+-  https://github.com/bitstadium
+-  https://github.com/DynamicsCRM
 -  https://github.com/fuselabs
--  https://github.com/liveservices 
+-  https://github.com/liveservices
 -  https://github.com/LIS
--  https://github.com/Microsoft 
+-  https://github.com/ManifoldJS
+-  https://github.com/Microsoft
 -  https://github.com/Microsoft-CISL
+-  https://github.com/MicrosoftDX
 -  https://github.com/MicrosoftEdge
 -  https://github.com/MicrosoftGenomics
 -  https://github.com/microsoft-hsg
 -  https://github.com/MicrosoftHPC
--  https://github.com/MicrosoftResearch 
+-  https://github.com/MicrosoftResearch
 -  https://github.com/MSOpenTech
 -  https://github.com/ms-iot
 -  https://github.com/mspnp
--  https://github.com/nokia-developer
--  https://github.com/nuget
--  https://github.com/OfficeDev 
+-  https://github.com/microsoft-mobile
+-  https://github.com/OData
+-  https://github.com/OfficeDev
 -  https://github.com/OneDrive
--  https://github.com/OSTC 
+-  https://github.com/OneGet
+-  https://github.com/OneNoteDev
+-  https://github.com/OSTC
+-  https://github.com/PowerBI
+-  https://github.com/PowerShell
 -  https://github.com/Reactive-Extensions
--  https://github.com/SignalR
--  https://github.com/Azure-Samples
+-  https://github.com/SimpleCloudManagerProject
+-  https://github.com/thaliproject
 -  https://github.com/winjs
 -  https://github.com/yammer
+-  https://github.com/Z3Prover
+
 
 Note, if the Microsoft Open Source project you are looking for is not in one of these organizations
 then we have several other projects hosted on CodePlex here:

@@ -122,12 +122,12 @@
 											<div class="row ">
 												<div class="col-md-4 metric-value">{{overAllStats.Projects}}</div>
 												<div class="col-sm-2 metric-label">Repos</div>
-												<div class="col-sm-2 metric-label"><i class="fa fa-star"></i></div>
-												<div class="col-md-4 metric-value">{{overAllStats.Stars}}</div>
+                                                						<div class="col-sm-2 metric-value">{{overAllStats.Stars}}</div>
+												<div class="col-md-4 metric-label"><i class="fa fa-star"></i>&nbsp;Stars</div>
 											</div>
 											<div class="row">
-												<div class="col-md-4 metric-label"><i class="fa fa-code-fork"></i></div>
-												<div class="col-sm-2 metric-value">{{overAllStats.Forks}}</div>
+                                                						<div class="col-md-4 metric-value">{{overAllStats.Forks}}</div>
+                                                						<div class="col-sm-2 metric-label"><i class="fa fa-code-fork"></i>&nbsp;Forks</div>
 												<div class="col-sm-2 metric-value">{{overAllStats.Issues}}</div>
 												<div class="col-md-4 metric-label">Open Issues</div>
 											</div>
@@ -166,14 +166,14 @@
 									<div class="panel-body">
 										<div class="row">
 											<div class="center">
-												<span class="span-stars-group"><i class="fa fa-star fa-fw">{{project.Stars}}</i></span>
-												<span class="span-forks-group"><i class="fa fa-code-fork fa-fw">{{project.Forks}}</i></span>
+												<span class="span-stars-group"><i class="fa fa-star fa-fw"></i>{{project.Stars}}</span>
+												<span class="span-forks-group"><i class="fa fa-code-fork fa-fw"></i>{{project.Forks}}</span>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div onclick="window.scrollTo(0,0)">
+							<div>
 								<pagination class="col-xs-12 paginator pagination-small" ng-show="noOfRepos > 12" data-boundary-links="true" data-num-pages="noOfPages" data-current-page="currentPage" on-select-page="pageChanged()" max-size="maxSize" data-previous-text="&laquo;" data-next-text="&raquo;"></pagination>
 							</div>
 						</div>
@@ -317,7 +317,7 @@
 												<a class="mscom-link" href="http://go.microsoft.com/fwlink/?LinkId=248681" target="_self">Privacy &amp; cookies</a>
 											</li>
 											<li>
-												<a class="mscom-link" href="~/TOU" target="_self">Terms of use</a>
+												<a class="mscom-link" href="http://go.microsoft.com/fwlink/?LinkId=206977" target="_self">Terms of use</a>
 											</li>
 											<li>
 												<a class="mscom-link" href="http://go.microsoft.com/?linkid=9851308" target="_self">Trademarks</a>
@@ -347,7 +347,7 @@
 			var varAutoFirePV = 1;
 			var Route = "58734";
 			var Ctrl = "";
-			document.write("<script type='text/javascript' src='" + (window.location.protocol) + "//c.microsoft.com/ms.js'" + "'><\/script>");
+			document.write("<script type='text/javascript' src='//c.microsoft.com/ms.js'><\/script>");
 		</script>
 		<noscript><img alt="" width="1" height="1" src="http://c.microsoft.com/trans_pixel.aspx" /></noscript>
 	</body>
