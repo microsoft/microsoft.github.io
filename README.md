@@ -39,6 +39,7 @@ List of Microsoft Organizations on GitHub
 -  https://github.com/microsoft-hsg
 -  https://github.com/MicrosoftHPC
 -  https://github.com/MicrosoftResearch
+-  https://github.com/MicrosoftTranslator
 -  https://github.com/MSOpenTech
 -  https://github.com/ms-iot
 -  https://github.com/mspnp
