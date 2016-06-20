@@ -47,7 +47,7 @@ Emails sent to [opencode@microsoft.com](mailto:opencode@microsoft.com) kick off 
 * From there team will work with you and the others involved to come to a conclusion.  While issue complexity varies, the goal is to resolve issues within five working days.
 * All communication will be confidential with very limited circulation.
 
-![Issue Resolution Process](/IssueResolutionProcess.png)
+![Issue Resolution Process](IssueResolutionProcess.png)
 
 ## <a name="howteamworks"></a>How does the resolution team work?
 Beyond the norms and values set out in the Code of Conduct, issue review teams operate under the following principles:
