@@ -23,7 +23,7 @@ This code of conduct applies to all repos and communities for Microsoft-managed 
 Note: Some Microsoft-managed communities have codes of conduct that pre-date this document and issue resolution process. While communities are not required to change their code, they are expected to use the resolution process outlined here.  The review team will coordinate with the communities involved to address your concerns.
 
 ## Reporting Code of Conduct Issues
-Communities are strongly urged to resolve issues on their own. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting [opencode@microsoft.com](mailto:opencode@microsoft.com).  Your report will be handled in accordance with the issue resolution process described in the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/).
+We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting [opencode@microsoft.com](mailto:opencode@microsoft.com).  Your report will be handled in accordance with the issue resolution process described in the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/).
 
 In your report please include:
 
