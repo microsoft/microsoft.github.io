@@ -29,7 +29,12 @@ Having one code and process is both efficient and consistent &mdash; community m
 All Microsoft projects are automatically covered by the Code of Conduct and the Issue Resolution Process. **However**, it is critical that everyone in the communities be aware of the code and process. For that reason, all projects must link to the Code of Conduct in their README and/or CONTRIBUTING files using the following markdown.
 
 ```
-This project has adopted the [Microsoft Open Source Code of Conduct](http://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](http://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+This project has adopted the [Microsoft Open Source Code of
+Conduct](http://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct
+FAQ](http://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
+with any additional questions or comments.
 ```
 
 ## <a name="alreadyhave"></a>What if my Microsoft project already has a Code of Conduct?
