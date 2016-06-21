@@ -20,7 +20,7 @@ While conduct issues seldom arise, when they do, they are often very public and 
 * An **Issue Resolution Process** for addressing cases where these norms are not being maintained
 
 ## <a name="whythis"></a>Why this Code of Conduct?
-The [Microsoft Open Source Code of Conduct](http://opensource.microsoft.com/codeofconduct/) is an instantiation of the [TODO Group](http://todogroup.org/) Code of Conduct template, that captures the Microsoft culture of equality, respect and inclusion. This same template is used by industry colleagues such as Facebook, Twitter, GitHub, Yahoo and others in their open source projects.
+The [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) is an instantiation of the [TODO Group](https://todogroup.org/) Code of Conduct template, that captures the Microsoft culture of equality, respect and inclusion. This same template is used by industry colleagues such as Facebook, Twitter, GitHub, Yahoo and others in their open source projects.
 
 ## <a name="allrepos"></a>Why do this across all repos?
 Having one code and process is both efficient and consistent &mdash; community members can participate in any Microsoft-driven project and be confident that they know the norms and that they are supported by a robust process.
@@ -30,15 +30,15 @@ All Microsoft projects are automatically covered by the Code of Conduct and the 
 
 ```
 This project has adopted the [Microsoft Open Source Code of
-Conduct](http://opensource.microsoft.com/codeofconduct/).
+Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct
-FAQ](http://opensource.microsoft.com/codeofconduct/faq/) or
+FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com)
 with any additional questions or comments.
 ```
 
 ## <a name="alreadyhave"></a>What if my Microsoft project already has a Code of Conduct?
-Thanks for being proactive in this important area. You are welcome to continue using your existing Code of Conduct, or you may change to the [Microsoft Open Source Code of Conduct](http://opensource.microsoft.com/codeofconduct/). Either way, all Microsoft projects must use the same issue resolution process. Please ensure that your documentation and guidance is updated to point people at the process outlined in this FAQ (see below).
+Thanks for being proactive in this important area. You are welcome to continue using your existing Code of Conduct, or you may change to the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). Either way, all Microsoft projects must use the same issue resolution process. Please ensure that your documentation and guidance is updated to point people at the process outlined in this FAQ (see below).
 
 Projects in the .NET Foundation are already covered by the [.NET Foundation Contributors Code of Conduct](https://www.dotnetfoundation.org/code-of-conduct). As such, there is no need for .NET Foundation projects to make any changes.
 

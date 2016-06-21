@@ -23,7 +23,7 @@ This code of conduct applies to all repos and communities for Microsoft-managed 
 Note: Some Microsoft-managed communities have codes of conduct that pre-date this document and issue resolution process. While communities are not required to change their code, they are expected to use the resolution process outlined here.  The review team will coordinate with the communities involved to address your concerns.
 
 ## Reporting Code of Conduct Issues
-Communities are strongly urged to resolve issues on their own. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting [opencode@microsoft.com](mailto:opencode@microsoft.com).  Your report will be handled in accordance with the issue resolution process described in the [Code of Conduct FAQ](http://opensource.microsoft.com/codeofconduct/faq/).
+Communities are strongly urged to resolve issues on their own. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting [opencode@microsoft.com](mailto:opencode@microsoft.com).  Your report will be handled in accordance with the issue resolution process described in the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/).
 
 In your report please include:
 
@@ -36,4 +36,4 @@ All reports will be reviewed by a multi-person team and will result in a respons
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately. If an individual engages in unacceptable behavior, the review team may take any action they deem appropriate, including a permanent ban from the community.        
 
-_This code of conduct is based on the [template](http://todogroup.org/opencodeofconduct) established by the [TODO Group](http://todogroup.org/) and used by numerous other large communities (e.g., [Facebook](https://code.facebook.com/pages/876921332402685/open-source-code-of-conduct), [Yahoo](http://yahoo.github.io/codeofconduct), [Twitter](https://engineering.twitter.com/opensource/code-of-conduct), [GitHub](http://todogroup.org/opencodeofconduct/#opensource@github.com))_
+_This code of conduct is based on the [template](https://todogroup.org/opencodeofconduct) established by the [TODO Group](https://todogroup.org/) and used by numerous other large communities (e.g., [Facebook](https://code.facebook.com/pages/876921332402685/open-source-code-of-conduct), [Yahoo](https://yahoo.github.io/codeofconduct), [Twitter](https://engineering.twitter.com/opensource/code-of-conduct), [GitHub](https://todogroup.org/opencodeofconduct/#opensource@github.com))_
