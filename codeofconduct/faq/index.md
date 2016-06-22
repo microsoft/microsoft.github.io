@@ -20,7 +20,7 @@ While conduct issues seldom arise, when they do, they are often very public and 
 * An **Issue Resolution Process** for addressing cases where these norms are not being maintained
 
 ## <a name="whythis"></a>Why this Code of Conduct?
-The [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) is an instantiation of the [TODO Group](https://todogroup.org/) Code of Conduct template, that captures the Microsoft culture of equality, respect and inclusion. This same template is used by industry colleagues such as Facebook, Twitter, GitHub, Yahoo and others in their open source projects.
+The [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/) is an instantiation of the [TODO Group](http://todogroup.org/) Code of Conduct template, that captures the Microsoft culture of equality, respect and inclusion. This same template is used by industry colleagues such as Facebook, Twitter, GitHub, Yahoo and others in their open source projects.
 
 ## <a name="allrepos"></a>Why do this across all repos?
 Having one code and process is both efficient and consistent &mdash; community members can participate in any Microsoft-driven project and be confident that they know the norms and that they are supported by a robust process.
