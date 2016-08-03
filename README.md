@@ -1,7 +1,7 @@
 microsoft.github.io
 ===================
 
-Source for the microsoft.github.io website. Contributions are welcome.
+Source files for the microsoft.github.io website. Contributions are welcome.
 You can also email oss@microsoft.com if you have any questions about this site or the
 Microsoft GitHub organization in general.
 
