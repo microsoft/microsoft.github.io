@@ -183,4 +183,9 @@
      "name": "OData", 
      "url": "https://github.com/OData", 
      "image": "https://avatars0.githubusercontent.com/u/916520?v=3&s=200" 
-}] 
+}, {
+    "title": "Microsoft Translator",
+    "name": "MicrosoftTranslator",
+    "url": "https://github.com/MicrosoftTranslator",
+    "image": "https://avatars3.githubusercontent.com/u/11097237?v=3&s=200"
+}]
