@@ -87,11 +87,15 @@
 						<div id="carousel-featured-repos" class="slide carousel" ng-show="main.featuredProjects" data-ride="carousel" ng-cloak>
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
+								<li data-target="#carousel-featured-repos" data-slide-to="$index" ng-class="{'active':$index == 0}"  ng-repeat="project in main.indicators track by $index"></li>
+							</ol>
+							<!--<ol class="carousel-indicators">
 								<li data-target="#carousel-featured-repos" data-slide-to="0" class="active"></li>
 								<li data-target="#carousel-featured-repos" data-slide-to="1"></li>
 								<li data-target="#carousel-featured-repos" data-slide-to="2"></li>
 								<li data-target="#carousel-featured-repos" data-slide-to="3"></li>
 							</ol>
+							</ol>-->
 							<!-- Slide -->
 							<div class="carousel-inner">
 								<div class="item" ng-class="{'active': $index==0}" ng-repeat="project in main.featuredProjects">
