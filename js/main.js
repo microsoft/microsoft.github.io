@@ -67,6 +67,13 @@ app.factory('Backend', ['$http',
 
                     self.projects = projects;
                     self.featuredProjects = featuredProjects;
+					self.indicators = [];
+					
+					for(var project in self.featuredProjects){
+						self.indicators.push('test :123');
+					}
+
+					self.indicators.push('test :123');
                     $scope.$apply();
                 }
             });
