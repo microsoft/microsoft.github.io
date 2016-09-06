@@ -685,6 +685,12 @@
 .CSPvNext .row-fluid > .bp0-col-12-11 {
 	width: 91.5%;
 }
+.row {
+	margin: 0;
+}
+.ng-scope {
+	width: 100%;
+}
 }
 @media screen and (max-width:679px) and (min-width:540px)
 {
