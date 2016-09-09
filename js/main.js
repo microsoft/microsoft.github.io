@@ -7,6 +7,8 @@ app.factory('Backend', ['$http',
                 return $http.get(url).then(function(resp) {
                     return resp.data;
                 });
+                
+                
             };
         };
 
