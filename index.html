@@ -2,9 +2,9 @@
 <html ng-app="site">
 	<head>
 		<title>Microsoft on GitHub</title>
-		<link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2" />
+		<link rel="shortcut icon" href="//www.microsoft.com/favicon.ico?v2"/>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>
-		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"/>
 		<link rel="stylesheet" href="css/main.css"/>
 		<link rel="stylesheet" href="css/mscom.css"/>
 		<link rel="stylesheet" href="css/site.css"/>
@@ -193,6 +193,14 @@
 				</div>
 			</div>
 		</div>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 	
 		<footer style="">
 			<div class="row-fluid" data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1">
@@ -201,12 +209,9 @@
 						<div class="CSPvNext CMSvNextComp mscom-footer-gray">
 							<div class="row-fluid mscom-footer-row-1 mscom-container-maxwidth mscom-grid-container" data-cols="4" data-view1="1" data-view2="2" data-view3="2" data-view4="4">
 								<span class="follow-text" style="margin-right: .5em;font-size: 18px;vertical-align:middle;">Follow Open at Microsoft</span>
-								<a class="mscom-link social-icon-link" href="https://www.facebook.com/openatmicrosoft" style="display: inline-block;margin-right: .5em;vertical-align: middle;">
-									<img src="https://c.s-microsoft.com/en-us/CMSImages/HPFeb15_social_Facebook.png?version=7f2bd528-7148-5a76-d124-92ede5ee71c5" class="mscom-image social-icon" alt="Facebook" width="32" height="32" />
-								</a>
-								<a class="mscom-link social-icon-link" href="https://twitter.com/openatmicrosoft" style="display: inline-block;margin-right: .5em;vertical-align: middle;">
-									<img src="https://c.s-microsoft.com/en-us/CMSImages/HPFeb15_social_Twitter.png?version=6eb346b9-c834-c911-b448-1f01aa7d0201" class="mscom-image social-icon" alt="Twitter" width="32" height="32" />
-								</a>
+								<div class="fb-follow" data-href="https://www.facebook.com/openatmicrosoft" data-width="32" data-height="32" data-layout="standard" data-show-faces="true"></div>
+								<a  href="https://twitter.com/openatmicrosoft" class="twitter-follow-button" data-show-count="false">Follow @openatmicrosoft</a>
+								<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 							</div>
 						</div>
 						<div class="CSPvNext CMSvNextComp mscom-footer">
