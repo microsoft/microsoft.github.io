@@ -10,6 +10,7 @@
 * [How do I raise a concern?](#howreport)
 * [What is the process for addressing issues that arise?](#process)
 * [How does the resolution team work?](#howteamworks)
+* [Can I use this Code of Conduct in my projects?](#caniuse)
 
 ## <a name="whycode"></a>Why have a Code of Conduct?
 People and communities are the foundation of open source. Communities thrive through diversity of thought and the safety of its members. Microsoft has a deep-seated commitment to diversity and inclusion. All Microsoft employees enjoy a safe work environment and a culture of mutual respect and responsibility. Our team members and open source partners should enjoy the same environment when collaborating on open source projects.
@@ -61,3 +62,6 @@ Beyond the norms and values set out in the Code of Conduct, issue review teams o
 * **Less is more** &mdash; As much as possible, let the community work it out. It is much better to have communities self-correct than to have outsiders come in and “fix” problems.
 * **Equality** &mdash; Contribution value or status in the community are not relevant to the review. Key people do not have more rights (either to abuse or be protected from abuse) than others in the community.
 * **Independence** &mdash; Reviewers must act and be seen to act with independence from the project(s) in question and from Microsoft.
+
+## <a name="caniuse"></a>Can I use this Code of Conduct in my projects?
+Yes. The document is licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). You will of course need to update the document to suit the specifics of your projects, but by all means use this however you can to drive great communities.
