@@ -9,5 +9,5 @@ Today you can find, filter and review all sorts of open source up at https://ope
 At this time the site also continues to hold the official Microsoft Open Source Code of Conduct policy and
 FAQ.
 
-Feel free to email mailto:opensource@microsoft.com if you have any questions about this site or Microsoft GitHub
+Feel free to email [opensource@microsoft.com](mailto:opensource@microsoft.com) if you have any questions about this site or Microsoft GitHub
 organizations in general.
