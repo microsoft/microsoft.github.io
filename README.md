@@ -2,7 +2,7 @@ microsoft.github.io
 ===================
 
 As Microsoft's open source presence and volume of released source code up on GitHub has
-increased, we've reimagined the portal and index for our repos.
+increased, we've reimagined the portal and index for our repositories.
 
 Today you can find, filter and review all sorts of open source up at https://opensource.microsoft.com.
 
