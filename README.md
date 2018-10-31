@@ -11,3 +11,4 @@ FAQ.
 
 Feel free to email [opensource@microsoft.com](mailto:opensource@microsoft.com) if you have any questions about this site or Microsoft GitHub
 organizations in general.
+Thanks for visiting this page.
