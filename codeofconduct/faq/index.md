@@ -65,3 +65,7 @@ Beyond the norms and values set out in the Code of Conduct, issue review teams o
 
 ## <a name="caniuse"></a>Can I use this Code of Conduct in my projects?
 Yes. The document is licenced under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0). You will of course need to update the document to suit the specifics of your projects, but by all means use this however you can to drive great communities.
+
+
+        microsoft.github.io/LICENSE
+      
