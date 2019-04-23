@@ -1,4 +1,4 @@
-microsoft.github.io
+[microsoft.github.io](microsoft.github.io)
 ===================
 
 As Microsoft's open source presence and volume of released source code up on GitHub has
