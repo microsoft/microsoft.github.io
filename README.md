@@ -11,7 +11,7 @@
     <img src="https://img.shields.io/badge/Site-opensource.microsoft.com-darklime.svg?style=flat"
       alt="Site" />
   </a>
-  	<a href="https://github.com/vivekverma007/microsoft.github.io/blob/master/LICENSE">
+  	<a href="https://github.com/microsoft/microsoft.github.io/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/License-CreativeCommonsPublicLicenses-blue.svg"
       alt="License: CC-BY-4.0" />
   </a>
