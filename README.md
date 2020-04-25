@@ -1,13 +1,34 @@
 [microsoft.github.io](https://microsoft.github.io)
 ===================
 
-As Microsoft's open source presence and volume of released source code up on GitHub has
-increased, we've reimagined the portal and index for our repos.
+Many open source projects released by Microsoft products, services and teams also have
+deployments powered by GitHub Pages on this domain.
 
-Today you can find, filter and review all sorts of open source up at [opensource.microsoft.com](https://opensource.microsoft.com).
+To discover Microsoft-released open source projects, learn about Microsoft's open source
+approach and other information, check us out online at [opensource.microsoft.com](https://opensource.microsoft.com).
 
-At this time the site also continues to hold the official Microsoft Open Source Code of Conduct policy and
-FAQ.
+If we can help answer questions about the open source program at Microsoft, you can
+contact `opensource at microsoft com` - although we are not able to provide support
+for projects through this mechanism.
 
-Feel free to email [opensource@microsoft.com](mailto:opensource@microsoft.com) if you have any questions about this site or Microsoft GitHub
-organizations in general.
+## Microsoft GitHub resources
+
+- Default repo templates including `SECURITY.MD` and code of conduct files: [microsoft/repo-templates](https://github.com/microsoft/repo-templates)
+- [Code of Conduct](https://opensource.microsoft.com/codeofconduct) ([FAQ](https://opensource.microsoft.com/codeofconduct/faq/))
+
+## Microsoft open source resources
+
+- [Open Source Blog](https://cloudblogs.microsoft.com/opensource/)
+- [The Open Source Show on Channel 9](https://channel9.msdn.com/Shows/The-Open-Source-Show)
+- [https://opensource.microsoft.com/](https://opensource.microsoft.com/)
+
+## Resources for Microsoft employees
+
+- [docs.opensource.microsoft.com](https://docs.opensource.microsoft.com)
+- [Link your GitHub Account and join GitHub organizations automatically](https://repos.opensource.microsoft.com)
+
+## How to identify an official Microsoft organization on GitHub
+
+- Official Microsoft GitHub orgs have a professional avatar and include a web address at Microsoft.com or an associated official domain
+- Official Microsoft orgs are [Verified on GitHub](https://github.blog/changelog/2018-08-07-domain-verification/) - look for the domain verification indicator on GitHub
+
