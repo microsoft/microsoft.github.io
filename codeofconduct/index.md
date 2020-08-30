@@ -25,7 +25,7 @@ Note: Some Microsoft-managed communities have codes of conduct that pre-date thi
 ## Reporting Code of Conduct Issues
 We encourage all communities to resolve issues on their own whenever possible. This builds a broader and deeper understanding and ultimately a healthier interaction. In the event that an issue cannot be resolved locally, please feel free to report your concerns by contacting [opencode@microsoft.com](mailto:opencode@microsoft.com).  Your report will be handled in accordance with the issue resolution process described in the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/).
 
-In your report please include:
+In your report please include:buriram1601@gmail.com
 
 * Your contact information.
 * Names (real, usernames or pseudonyms) of any individuals involved. If there are additional witnesses, please include them as well.
