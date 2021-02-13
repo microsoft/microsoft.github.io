@@ -1,66 +1,34 @@
-microsoft.github.io
+[microsoft.github.io](https://microsoft.github.io)
 ===================
 
-Source for the microsoft.github.io website. Contributions are welcome.
-You can also email oss@microsoft.com if you have any questions about this site or the
-Microsoft GitHub organization in general.
+Many open source projects released by Microsoft products, services and teams also have
+deployments powered by GitHub Pages on this domain.
 
-How to contribute?
-=====================
+To discover Microsoft-released open source projects, learn about Microsoft's open source
+approach and other information, check us out online at [opensource.microsoft.com](https://opensource.microsoft.com).
 
-1. Before starting work on a new feature, enhancement, or fix, please create an issue and optionally assign it to yourself or a developer.
-1. Fork the repository and make your changes against the 'development' branch (not master).
-1. After making your changes in your fork, run tests and ensure that the page looks good and works with all supported browsers.
-1. If you have made a series of commits into the 'development' branch, please try to squash them into a small number of commits.
-1. Issue a Pull Request against the 'development' branch (not master).
-1. The admins will review your code and may optionally request conformance, functional or other changes. Work with them to resolve any issues.
-1. Upon acceptance, your code will be merged into the master branch and will become available for all.
+If we can help answer questions about the open source program at Microsoft, you can
+contact `opensource at microsoft com` - although we are not able to provide support
+for projects through this mechanism.
 
-List of Microsoft Organizations on GitHub
-=========================================
+## Microsoft GitHub resources
 
--  https://github.com/Azure
--  https://github.com/AzureAD
--  https://github.com/AzureADSamples
--  https://github.com/AzureFederal
--  https://github.com/Azure-Readiness
--  https://github.com/Azure-Samples
--  https://github.com/bitstadium
--  https://github.com/DynamicsCRM
--  https://github.com/fuselabs
--  https://github.com/liveservices
--  https://github.com/LIS
--  https://github.com/ManifoldJS
--  https://github.com/Microsoft
--  https://github.com/Microsoft-CISL
--  https://github.com/MicrosoftDX
--  https://github.com/MicrosoftEdge
--  https://github.com/MicrosoftGenomics
--  https://github.com/microsoft-hsg
--  https://github.com/MicrosoftHPC
--  https://github.com/MicrosoftResearch
--  https://github.com/MSOpenTech
--  https://github.com/ms-iot
--  https://github.com/mspnp
--  https://github.com/microsoft-mobile
--  https://github.com/OData
--  https://github.com/OfficeDev
--  https://github.com/OneDrive
--  https://github.com/OneGet
--  https://github.com/OneNoteDev
--  https://github.com/OSTC
--  https://github.com/PowerBI
--  https://github.com/PowerShell
--  https://github.com/Reactive-Extensions
--  https://github.com/SimpleCloudManagerProject
--  https://github.com/thaliproject
--  https://github.com/winjs
--  https://github.com/yammer
--  https://github.com/Z3Prover
+- Default repo templates including `SECURITY.MD` and code of conduct files: [microsoft/repo-templates](https://github.com/microsoft/repo-templates)
+- [Code of Conduct](https://opensource.microsoft.com/codeofconduct) ([FAQ](https://opensource.microsoft.com/codeofconduct/faq/))
 
+## Microsoft open source resources
 
-Note, if the Microsoft Open Source project you are looking for is not in one of these organizations
-then we have several other projects hosted on CodePlex here:
+- [Open Source Blog](https://cloudblogs.microsoft.com/opensource/)
+- [The Open Source Show on Channel 9](https://channel9.msdn.com/Shows/The-Open-Source-Show)
+- [https://opensource.microsoft.com/](https://opensource.microsoft.com/)
 
-- https://www.codeplex.com/site/users/view/MSOpenTech
-- https://www.codeplex.com/site/users/view/Microsoft
+## Resources for Microsoft employees
+
+- [docs.opensource.microsoft.com](https://docs.opensource.microsoft.com)
+- [Link your GitHub Account and join GitHub organizations automatically](https://repos.opensource.microsoft.com)
+
+## How to identify an official Microsoft organization on GitHub
+
+- Official Microsoft GitHub orgs have a professional avatar and include a web address at Microsoft.com or an associated official domain
+- Official Microsoft orgs are [Verified on GitHub](https://github.blog/changelog/2018-08-07-domain-verification/) - look for the domain verification indicator on GitHub
+
