@@ -1,4 +1,4 @@
-[microsoft.github.io](https://microsoft.github.io)
+ [microsoft.github.io](https://microsoft.github.io)
 ===================
 
 Many open source projects released by Microsoft products, services and teams also have
