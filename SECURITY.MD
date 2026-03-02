@@ -1,4 +1,4 @@
-# IMPORTANT: THIS IS NOT THE SOURCE OF TRUTH FOR THIS FILE
+#  IMPORTANT: THIS IS NOT THE SOURCE OF TRUTH FOR THIS FILE
 
 The `SECURITY.MD` file used by default in new Microsoft GitHub repos can be found
 in the repo `microsoft/repo-templates` at https://github.com/microsoft/repo-templates.
