@@ -1,0 +1,19 @@
+ithub/ISSUE_TEMPLATE	Update issue templates	4 days ago
+codeofconduct	Add CC BY license info to FAQ	a year ago
+.codecov.yml	Create .codecov.yml	4 days ago
+.gitignore	Add Gemfile for testing	3 years ago
+.travis.yml	Create .travis.yml	4 days ago
+Gemfile	Add Gemfile for testing	3 years ago
+LICENSE	Add CC BY 4.0 as the license	a year ago
+README.md	Update mail to:	a year ago
+_config.yml	Set theme jekyll-theme-tactile	4 days ago
+index.html	Redirecting to opensource.microsoft.com	2 years ago
+ README.md
+microsoft.github.io
+As Microsoft's open source presence and volume of released source code up on GitHub has increased, we've reimagined the portal and index for our repos.
+
+Today you can find, filter and review all sorts of open source up at https://opensource.microsoft.com.
+
+At this time the site also continues to hold the official Microsoft Open Source Code of Conduct policy and FAQ.
+
+Feel free to email opensource@microsoft.com if you have any questions about this site or Microsoft GitHub organizations in general.
