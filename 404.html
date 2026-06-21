@@ -5,19 +5,15 @@
     <title>Page not found</title>
     <script type="text/javascript">
         (function () {
-            var sourcePrefix = "/presidio";
-            var targetBase = "https://data-privacy-stack.github.io/presidio/";
-            var path = window.location.pathname;
+            var section = window.location.pathname.split("/")[1];
 
-            if (path === sourcePrefix || path.indexOf(sourcePrefix + "/") === 0) {
-                var suffix = path.slice(sourcePrefix.length);
-
-                if (suffix.charAt(0) === "/") {
-                    suffix = suffix.slice(1);
-                }
-
-                window.location.replace(targetBase + suffix + window.location.search + window.location.hash);
+            if (!section || !/^[A-Za-z0-9_-]+$/.test(section)) {
+                return;
             }
+
+            var script = document.createElement("script");
+            script.src = "/" + section + "/redirect.js";
+            document.head.appendChild(script);
         }());
     </script>
 </head>
